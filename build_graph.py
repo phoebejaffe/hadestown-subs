@@ -13,7 +13,10 @@ def main():
     cast = json.loads((DATA / "cast.json").read_text())
     headshots = json.loads((DATA / "headshots.json").read_text())
 
-    performances = [p for p in performances if p.get("datetime")]
+    performances = [
+        p for p in performances
+        if p.get("datetime") and p.get("date_match") is not False
+    ]
     performances.sort(key=lambda p: p["datetime"])
     max_unassigned = {}
     for role in cast["roles"]:
@@ -266,7 +269,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 <div class="legend">
   <b>Gold ring</b> = substitute &nbsp;&middot;&nbsp;
   arrows connect a cast member moving to another role with the person covering their home track
-  &nbsp;&middot;&nbsp; dotted headshot border = swing entering from offstage.
+  &nbsp;&middot;&nbsp; blue dashed headshot border = swing entering from offstage.
   Fate and Worker covers are placed in a named track only when the source data identifies that track;
   otherwise they appear in an unassigned row. Worker covers use the supplied femme/masc track groups.
 </div>
@@ -277,6 +280,7 @@ const ROLE_BY_ID = Object.fromEntries(DATA.roles.map(role => [role.id, role]));
 const LABELW = 202;
 const COLW = 124;
 const HEADER_H = 54;
+const RIGHT_MARGIN = 40;
 const DEFAULT_ROW_H = 100;
 const UNKNOWN_ROW_H = 158;
 const UNKNOWN_ITEM_H = 78;
@@ -350,20 +354,21 @@ for (const row of rows) {
   stageHeight += row.height;
 }
 const stageWidth = performances.length * COLW;
+const scrollWidth = stageWidth + RIGHT_MARGIN;
 const stage = document.getElementById("stage");
 const rail = document.getElementById("rail-stage");
 const dateStage = document.getElementById("date-stage");
-const dateWrap = document.getElementById("date-wrap");
 const timelineWrap = document.getElementById("wrap");
-stage.style.width = `${stageWidth}px`;
+stage.style.width = `${scrollWidth}px`;
 stage.style.height = `${stageHeight}px`;
 rail.style.height = `${stageHeight}px`;
 rail.style.width = `${LABELW}px`;
 dateStage.style.width = `${stageWidth}px`;
 document.getElementById("date-rail").style.width = `${LABELW}px`;
-timelineWrap.addEventListener("scroll", () => {
-  dateWrap.scrollLeft = timelineWrap.scrollLeft;
-}, { passive: true });
+const syncDateHeader = () => {
+  dateStage.style.transform = `translateX(${-timelineWrap.scrollLeft}px)`;
+};
+timelineWrap.addEventListener("scroll", syncDateHeader, { passive: true });
 for (const row of rows) {
   const label = document.createElement("div");
   label.className = "row-label" + (row.unassigned ? " unassigned" : "");
@@ -626,6 +631,11 @@ for (const [column, columnArrows] of arrowsByColumn) {
     );
   });
 }
+
+requestAnimationFrame(() => {
+  timelineWrap.scrollLeft = timelineWrap.scrollWidth - timelineWrap.clientWidth;
+  syncDateHeader();
+});
 </script>
 </body>
 </html>
