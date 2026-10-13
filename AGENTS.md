@@ -46,8 +46,10 @@ Pure stdlib, no deps. Incremental runs take ~30s; full refreshes take longer.
   which the scraper does. Without it you get stale pages.
 - The site only retains ~30 days of performance records. Older `perf` IDs
   silently fall back to rendering the CURRENT performance. The scraper detects
-  this by comparing the rendered date to the modal's label and marks
-  `date_match: false` (recording the bogus served date in `served_date`).
+  this by comparing the rendered date to the modal's label. If no valid record
+  was previously captured, it marks `date_match: false` and the graph excludes
+  it. If a valid record was captured earlier, the scraper preserves that record
+  and marks it `expired: true`, with the stale page date in `served_date`.
 - Re-running `scrape.py` is incremental: it preserves saved records, fetches only
   missing performance IDs, and promotes a saved `current` record when its ID
   appears in the prior-performance list.
@@ -57,7 +59,9 @@ Pure stdlib, no deps. Incremental runs take ~30s; full refreshes take longer.
 ## Data
 
 - `data/performances.json` — one record per performance: `perf_id`,
-  `datetime`, `changes[]` (`role`, `performer`, `replaces`, `bio`, `headshot`).
+  `datetime`, `changes[]` (`role`, `performer`, `replaces`, `bio`, `headshot`),
+  plus validity/expiry metadata such as `date_match`, `expired`, and
+  `served_date`.
 - `data/cast.json` — baseline cast, home tracks, understudy info, and the
   femme/masc Worker slot groups used to narrow substitution assignments.
 - `data/cast_changes.csv` — flat `datetime, perf_id, role, performer, replaces`.

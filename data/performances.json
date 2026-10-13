@@ -103,9 +103,10 @@
     "date_text": "Sun, Sep 13, 2026 at 3:00 PM",
     "datetime": "2026-09-13T15:00:00",
     "expected_label": "Sun, Sep 13, 2026 at 3:00 PM",
-    "date_match": false,
+    "date_match": true,
     "served_date": "Sun, Oct 11, 2026 at 7:30 PM",
-    "no_changes": false,
+    "expired": true,
+    "no_changes": true,
     "changes": []
   },
   {

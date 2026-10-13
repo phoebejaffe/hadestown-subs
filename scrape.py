@@ -195,11 +195,21 @@ def main():
                     previous=previous,
                 )
             continue
-        (RAW / f"perf_{pid}.html").write_text(html)
         rec = parse_performance(html, pid, label)
+        if rec["date_match"] is not False:
+            (RAW / f"perf_{pid}.html").write_text(html)
+        if rec["date_match"] is False and previous and previous.get("date_match") is True:
+            served_date = rec["served_date"]
+            rec = dict(previous)
+            rec["perf_id"] = pid
+            rec["expected_label"] = label
+            rec["expired"] = True
+            rec["served_date"] = served_date
+            flag = "  <-- EXPIRED (kept saved data)"
+        else:
+            flag = "" if rec["date_match"] else "  <-- MISMATCH (no saved data)"
         store(rec, previous=previous)
         fetched += 1
-        flag = "" if rec["date_match"] else "  <-- MISMATCH (no data?)"
         print(f"  [{i+1}/{len(perfs)}] perf={pid} {label} -> {rec['date_text']} "
               f"({len(rec['changes'])} changes){flag}")
         time.sleep(0.4)
