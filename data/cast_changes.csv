@@ -1,0 +1,116 @@
+datetime,perf_id,role,performer
+2026-09-09T19:30:00,107849,Hermes,Malcolm Armwood
+2026-09-09T19:30:00,107849,Worker,Max Kumangai
+2026-09-10T19:00:00,107775,Eurydice,KC Dela Cruz
+2026-09-10T19:00:00,107775,Fate,Tara Jackson
+2026-09-11T19:00:00,107819,Eurydice,KC Dela Cruz
+2026-09-11T19:00:00,107819,Fate,Alex Lugo
+2026-09-16T14:00:00,107851,Worker,Max Kumangai
+2026-09-17T19:00:00,107777,Fate,Emily Afton
+2026-09-17T19:00:00,107777,Worker,Ayla Ciccone-Burton
+2026-09-18T19:00:00,107821,Fate,Emily Afton
+2026-09-18T19:00:00,107821,Worker,Ayla Ciccone-Burton
+2026-09-19T14:00:00,107867,Fate,Emily Afton
+2026-09-19T14:00:00,107867,Worker,Ayla Ciccone-Burton
+2026-09-19T19:30:00,107869,Fate,Emily Afton
+2026-09-19T19:30:00,107869,Worker,Ayla Ciccone-Burton
+2026-09-20T15:00:00,107877,Fate,Emily Afton
+2026-09-20T15:00:00,107877,Worker,Ayla Ciccone-Burton
+2026-09-22T19:00:00,107757,Worker,Brandon Cameron
+2026-09-22T19:00:00,107757,Worker,Aryn Bohannon
+2026-09-23T14:00:00,107855,Worker,Alex Lugo
+2026-09-23T19:30:00,107857,Orpheus,Brandon Cameron
+2026-09-23T19:30:00,107857,Fate,Alex Lugo
+2026-09-23T19:30:00,107857,Worker,Tara Jackson
+2026-09-24T19:00:00,107779,Orpheus,Jeffrey Cornelius
+2026-09-24T19:00:00,107779,Worker,Brandon Cameron
+2026-09-24T19:00:00,107779,Worker,Max Kumangai
+2026-09-25T19:00:00,107823,Orpheus,Brandon Cameron
+2026-09-25T19:00:00,107823,Worker,Alex Lugo
+2026-09-25T19:00:00,107823,Worker,Aryn Bohannon
+2026-09-26T14:00:00,107871,Orpheus,Jeffrey Cornelius
+2026-09-26T14:00:00,107871,Persephone,Khori Michelle Petinaud
+2026-09-26T14:00:00,107871,Fate,Emily Afton
+2026-09-26T14:00:00,107871,Worker,Aryn Bohannon
+2026-09-26T14:00:00,107871,Worker,Max Kumangai
+2026-09-26T19:30:00,107873,Eurydice,Sydney Parra
+2026-09-26T19:30:00,107873,Orpheus,Jeffrey Cornelius
+2026-09-26T19:30:00,107873,Worker,Brandon Cameron
+2026-09-26T19:30:00,107873,Worker,Max Kumangai
+2026-09-27T15:00:00,107879,Orpheus,Brandon Cameron
+2026-09-27T15:00:00,107879,Eurydice,Sydney Parra
+2026-09-27T15:00:00,107879,Persephone,Khori Michelle Petinaud
+2026-09-27T15:00:00,107879,Fate,Tara Jackson
+2026-09-27T15:00:00,107879,Fate,Alex Lugo
+2026-09-27T15:00:00,107879,Worker,Aryn Bohannon
+2026-09-27T15:00:00,107879,Worker,Max Kumangai
+2026-09-29T19:00:00,107759,Orpheus,Jeffrey Cornelius
+2026-09-29T19:00:00,107759,Eurydice,Sydney Parra
+2026-09-29T19:00:00,107759,Fate,Emily Afton
+2026-09-29T19:00:00,107759,Worker,Aryn Bohannon
+2026-09-29T19:00:00,107759,Worker,Alex Lugo
+2026-09-29T19:00:00,107759,Worker,Max Kumangai
+2026-09-30T14:00:00,107859,Eurydice,Sydney Parra
+2026-09-30T14:00:00,107859,Fate,Emily Afton
+2026-09-30T14:00:00,107859,Worker,Alex Lugo
+2026-09-30T14:00:00,107859,Worker,Aryn Bohannon
+2026-09-30T19:30:00,107861,Eurydice,Sydney Parra
+2026-09-30T19:30:00,107861,Fate,Emily Afton
+2026-09-30T19:30:00,107861,Worker,Alex Lugo
+2026-09-30T19:30:00,107861,Worker,Aryn Bohannon
+2026-10-01T19:00:00,130751,Eurydice,Sydney Parra
+2026-10-01T19:00:00,130751,Fate,Alex Lugo
+2026-10-01T19:00:00,130751,Worker,Aryn Bohannon
+2026-10-02T19:00:00,130767,Eurydice,KC Dela Cruz
+2026-10-02T19:00:00,130767,Hades,Max Kumangai
+2026-10-02T19:00:00,130767,Fate,Tara Jackson
+2026-10-02T19:00:00,130767,Fate,Alex Lugo
+2026-10-03T14:00:00,130783,Orpheus,Brandon Cameron
+2026-10-03T14:00:00,130783,Eurydice,KC Dela Cruz
+2026-10-03T14:00:00,130783,Hades,Alex Puette
+2026-10-03T14:00:00,130783,Fate,Tara Jackson
+2026-10-03T14:00:00,130783,Fate,Alex Lugo
+2026-10-03T14:00:00,130783,Worker,Max Kumangai
+2026-10-03T19:30:00,130785,Eurydice,KC Dela Cruz
+2026-10-03T19:30:00,130785,Hades,Alex Puette
+2026-10-03T19:30:00,130785,Fate,Tara Jackson
+2026-10-03T19:30:00,130785,Fate,Alex Lugo
+2026-10-03T19:30:00,130785,Worker,Max Kumangai
+2026-10-04T15:00:00,130819,Eurydice,KC Dela Cruz
+2026-10-04T15:00:00,130819,Hades,Alex Puette
+2026-10-04T15:00:00,130819,Fate,Tara Jackson
+2026-10-04T15:00:00,130819,Fate,Alex Lugo
+2026-10-04T15:00:00,130819,Worker,Brandon Cameron
+2026-10-06T19:00:00,130821,Eurydice,Sydney Parra
+2026-10-06T19:00:00,130821,Fate,Tara Jackson
+2026-10-06T19:00:00,130821,Worker,Aryn Bohannon
+2026-10-07T19:00:00,130881,Eurydice,KC Dela Cruz
+2026-10-07T19:00:00,130881,Fate,Emily Afton
+2026-10-07T19:00:00,130881,Fate,Sydney Parra
+2026-10-07T19:00:00,130881,Worker,Aryn Bohannon
+2026-10-07T19:00:00,130881,Worker,Max Kumangai
+2026-10-08T19:00:00,130753,Eurydice,KC Dela Cruz
+2026-10-08T19:00:00,130753,Fate,Tara Jackson
+2026-10-08T19:00:00,130753,Fate,Sydney Parra
+2026-10-08T19:00:00,130753,Worker,Aryn Bohannon
+2026-10-09T19:00:00,130769,Eurydice,KC Dela Cruz
+2026-10-09T19:00:00,130769,Fate,Sydney Parra
+2026-10-09T19:00:00,130769,Fate,Emily Afton
+2026-10-09T19:00:00,130769,Worker,Aryn Bohannon
+2026-10-09T19:00:00,130769,Worker,Tanner Ray Wilson
+2026-10-10T14:00:00,130787,Eurydice,KC Dela Cruz
+2026-10-10T14:00:00,130787,Fate,Sydney Parra
+2026-10-10T14:00:00,130787,Fate,Emily Afton
+2026-10-10T14:00:00,130787,Worker,Tanner Ray Wilson
+2026-10-10T14:00:00,130787,Worker,Alex Lugo
+2026-10-10T19:30:00,130789,Fate,Sydney Parra
+2026-10-10T19:30:00,130789,Worker,Alex Lugo
+2026-10-11T14:00:00,131023,Eurydice,Sydney Parra
+2026-10-11T14:00:00,131023,Fate,Tara Jackson
+2026-10-11T14:00:00,131023,Worker,Brandon Cameron
+2026-10-11T14:00:00,131023,Worker,Alex Lugo
+2026-10-11T14:00:00,131023,Worker,Tanner Ray Wilson
+2026-10-11T19:30:00,current,Fate,Kelly Belarmino
+2026-10-11T19:30:00,current,Fate,Alex Lugo
+2026-10-11T19:30:00,current,Worker,Brandon Cameron
+2026-10-11T19:30:00,current,Worker,Tanner Ray Wilson

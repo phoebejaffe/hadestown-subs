@@ -1,0 +1,41 @@
+name: Update Hadestown cast changes
+
+on:
+  schedule:
+    # Daily at 9:23 AM UTC (5:23 AM EDT / 4:23 AM EST).
+    - cron: "23 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hadestown-cast-updates
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Refresh performance data and graph
+        run: |
+          python3 scrape.py
+          python3 fetch_headshots.py
+          python3 build_graph.py
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > data/last_run.txt
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data index.html
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "Update Hadestown cast data"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi

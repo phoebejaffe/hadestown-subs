@@ -1,0 +1,1001 @@
+
+
+
+
+
+
+        
+        
+                                                                
+                    
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hadestown - Cast Changes</title>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HEKHHG1KSN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-HEKHHG1KSN');
+    </script>
+
+        
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 480px;
+            background: white;
+            min-height: 100vh;
+        }
+
+        @media print {
+            body {
+                min-height: 0;
+                display: block;
+            }
+
+            .container {
+                min-height: 0;
+            }
+        }
+
+        .header {
+            background-color: #FDE300;
+            padding: 16px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: 24px;
+            font-weight: 900;
+            letter-spacing: 3px;
+            color: #000;
+        }
+
+        .header img {
+            max-height: 38px;
+            width: auto;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            color: #333;
+            margin-top: 4px;
+        }
+
+        .performance-info {
+            padding: 24px 20px;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            gap: 16px;
+        }
+
+        .playbill-cover {
+            width: 80px;
+            height: auto;
+            flex-shrink: 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+
+        .show-details {
+            flex: 1;
+        }
+
+        .performance-title {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+
+        .production-name {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #000;
+        }
+
+        .performance-date {
+            color: #666;
+            font-size: 16px;
+        }
+
+        .cast-changes {
+            padding: 20px;
+        }
+
+        .no-changes {
+            padding: 40px 20px;
+            text-align: center;
+            color: #666;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .role-change {
+            margin-bottom: 32px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .role-change:last-child {
+            border-bottom: none;
+        }
+
+        .welcome-section-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #000;
+            margin: 24px 0 16px 0;
+        }
+
+        .welcome-section-title:first-child {
+            margin-top: 0;
+        }
+
+        .role-info {
+            margin-bottom: 16px;
+        }
+
+        .role-text {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .performer-card {
+            display: flex;
+            gap: 16px;
+            margin-top: 16px;
+            align-items: flex-start;
+        }
+
+        .headshot {
+            width: 80px;
+            flex-shrink: 0;
+        }
+
+        .headshot.placeholder {
+            height: 80px;
+            background-color: #e0e0e0;
+            border: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 12px;
+        }
+
+        .headshot img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border: 1px solid #ccc;
+        }
+
+        .performer-details {
+            flex: 1;
+        }
+
+        .performer-name {
+            font-weight: bold;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+
+        .performer-bio {
+            font-size: 13px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        .view-prior-btn {
+            margin: 24px 20px;
+            width: calc(100% - 40px);
+            padding: 16px;
+            background: white;
+            border: 2px solid #000;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .view-prior-btn:hover {
+            background: #000;
+            color: white;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 200;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: white;
+            width: 90%;
+            max-width: 400px;
+            max-height: 80vh;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .modal-header {
+            padding: 20px;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .modal-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 0;
+            width: 32px;
+            height: 32px;
+        }
+
+        .performance-list {
+            overflow-y: auto;
+            max-height: 60vh;
+        }
+
+        .performance-item {
+            padding: 16px 20px;
+            border-bottom: 1px solid #e0e0e0;
+            cursor: pointer;
+            transition: background 0.2s;
+            text-decoration: none;
+            color: #000;
+            display: block;
+        }
+
+        .performance-item:hover {
+            background: #f5f5f5;
+        }
+
+        /* Print styles */
+        @media print {
+            .view-prior-btn,
+            .print-btn,
+            .modal,
+            .signup-section,
+            .thank-you-message {
+                display: none !important;
+            }
+
+            body {
+                background: white;
+            }
+
+            .container {
+                max-width: 480px;
+                box-shadow: none;
+            }
+
+            .header {
+                position: static;
+                box-shadow: none;
+            }
+
+            .cast-changes {
+                padding-bottom: 0.5in;
+            }
+
+            .role-change {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body><a href="https://atthisplaybill.com/cdn-cgi/content?id=w6JoWcwEbgVcs4Kfmr4T3sSIMfC_rtEj6_uDncdcldE-1791577203.0442264-1.2.1.1-7WF_mdKDUf2ivYcXse6Gg53W6zJOp4.sOEHJ.YA1C5TfLhChj0Po40BEuBcWtPpq" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
+<div class="container">
+    <header class="header">
+                                                                                                
+                    <img src="https://assets.atthisplaybill.com/main-logo-trimmed_2023-03-27.png" alt="Playbill">
+                <div class="subtitle">AT THIS PERFORMANCE</div>
+    </header>
+
+            <div class="performance-info">
+                                        <img src="https://assets.atthisplaybill.com/covers/44eab35f14a5b7f5d2861fcf24ce69bf-hadestown-playbill-2021-09-02-web.jpg" alt="Hadestown Playbill" class="playbill-cover">
+            
+            <div class="show-details">
+                <div class="performance-title">At the Performance of</div>
+                <div class="production-name">Hadestown</div>
+                <div class="performance-date">
+                    Fri, Sep 25, 2026 at 7:00 PM
+                </div>
+            </div>
+        </div>
+
+        <div class="cast-changes">
+            
+                                                            
+                                                                    
+                                                
+                                                
+                                                                                                                                                                                    <div class="role-change">
+                    
+                                            <div class="role-info">
+                            <div class="role-text">
+                                                                    The role of <strong>Orpheus</strong><br>
+                                                                                                Will be played by <strong>Brandon Cameron</strong>
+                            </div>
+                        </div>
+                    
+                                                            
+                    <div class="performer-card">
+                                                    <div class="headshot">
+                                <img src="https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Brandon_Cameron.jpg" alt="Brandon Cameron">
+                            </div>
+                                                <div class="performer-details">
+                                                            <div class="performer-name">BRANDON CAMERON</div>
+                                                                                        <div class="performer-bio"><p>Broadway debut! Regional: Sight&amp;Sound, American Music Theatre. Film: <i>Cupid for Christmas</i>. So grateful and excited to be joining the <i>Hadestown</i> family. God is good! Love to Mom, Mikayla, Laurel, family, friends and mentors. Special thanks to Jeremy and the Nicolosi &amp; Co. team. BFA Shenandoah University Conservatory ’22. Instagram: @_de_la_musique</p></div>
+                                                    </div>
+                    </div>
+                </div>
+            
+                                                                                                                                        <div class="role-change">
+                    
+                                            <div class="role-info">
+                            <div class="role-text">
+                                                                    The role of <strong>Worker</strong><br>
+                                                                                                Will be played by <strong>Alex Lugo</strong>
+                            </div>
+                        </div>
+                    
+                                                            
+                    <div class="performer-card">
+                                                    <div class="headshot">
+                                <img src="https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Lugo-5-5-25.jpg" alt="Alex Lugo">
+                            </div>
+                                                <div class="performer-details">
+                                                            <div class="performer-name">ALEX LUGO</div>
+                                                                                        <div class="performer-bio"><p>Alex uses they/them pronouns. International: <i>Hadestown </i>Australia. Tour: <i>Hadestown, Rent </i>20th anniversary. Television: “And Just Like That” on MAX &amp; “The Late Late Show With James Cordon.” NYU Tisch alum. For my family, Adreanna, Ben &amp; TNB2S+ pioneers.</p></div>
+                                                    </div>
+                    </div>
+                </div>
+            
+                                                                                                                                        <div class="role-change">
+                    
+                                            <div class="role-info">
+                            <div class="role-text">
+                                                                    The role of <strong>Worker</strong><br>
+                                                                                                Will be played by <strong>Aryn Bohannon</strong>
+                            </div>
+                        </div>
+                    
+                                                            
+                    <div class="performer-card">
+                                                    <div class="headshot">
+                                <img src="https://assets.atthisplaybill.com/headshots/transforms/_headshot/AB-BW-4x5-v2.jpg" alt="Aryn Bohannon">
+                            </div>
+                                                <div class="performer-details">
+                                                            <div class="performer-name">ARYN BOHANNON</div>
+                                                                                        <div class="performer-bio"><p>(Swing, u/s Eurydice, u/s Fates). Broadway: <i>SIX the Musical.</i>  National tour:<i> SIX the Musical</i>. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thankyou to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh</p></div>
+                                                    </div>
+                    </div>
+                </div>
+            
+                                                                        
+                                </div>
+
+                
+                                                                                                
+                                                                                                        
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                            
+                    <button class="view-prior-btn" onclick="openModal()">
+                View Prior Hadestown Cast Changes
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+            </button>
+        
+        <button class="view-prior-btn print-btn" onclick="window.print()">
+            Print This Page
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                <rect x="6" y="14" width="12" height="8"></rect>
+            </svg>
+        </button>
+
+                
+
+
+    
+    
+    
+
+
+
+
+<div class="signup-section" style="background: linear-gradient(135deg, #880000 0%, #dc143c 100%); color: #ffffff">
+    <div class="signup-header" id="signupHeader">
+        Get updates from the Underground and beyond
+    </div>
+
+    <form id="signupForm" class="signup-form">
+        <input type="hidden" name="productionId" value="2">
+        <input type="hidden" name="productionName" value="Hadestown">
+
+        <div class="form-group">
+            <input
+                type="email"
+                name="email"
+                id="emailInput"
+                placeholder="Email Address"
+                required
+                class="email-input"
+            >
+        </div>
+
+        <div class="form-group checkbox-group">
+            <label class="checkbox-label">
+                <input type="checkbox" name="signupShow" id="signupShow" value="1" checked>
+                <span class="checkbox-text">I would like to get updates from Hadestown</span>
+            </label>
+        </div>
+
+        <div class="form-group checkbox-group">
+            <label class="checkbox-label">
+                <input type="checkbox" name="signupPlaybill" id="signupPlaybill" value="1" checked>
+                <span class="checkbox-text">I would like special ticket offers, news, and more from Playbill</span>
+            </label>
+        </div>
+
+        <button type="submit" class="signup-btn">Sign Up</button>
+
+        <div id="signupMessage" class="signup-message"></div>
+    </form>
+
+    <div id="thankYouMessage" class="thank-you-message" style="display: none;">
+        <div class="thank-you-icon">✓</div>
+        <h3>Thank You for Signing Up!</h3>
+        <p id="thankYouText">You'll receive updates based on your selections.</p>
+    </div>
+</div>
+
+<style>
+    .signup-section {
+        margin: 40px 20px;
+        border-radius: 12px;
+        padding: 40px 30px;
+        /* Background and color set via inline styles from Twig */
+    }
+
+    .signup-header {
+        font-size: 32px;
+        font-weight: bold;
+        line-height: 1.2;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    .signup-form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email-input {
+        width: 100%;
+        padding: 18px 20px;
+        font-size: 16px;
+        border: 1px solid black;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.9);
+        color: #333;
+    }
+
+    .email-input::placeholder {
+        color: #999;
+    }
+
+    .email-input:focus {
+        outline: none;
+        background: white;
+        box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3);
+    }
+
+    .checkbox-group {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .checkbox-label {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .checkbox-label input[type="checkbox"] {
+        width: 24px;
+        height: 24px;
+        min-width: 24px;
+        margin-top: 2px;
+        cursor: pointer;
+        background-color: white;
+        border: 2px solid #999;
+        border-radius: 4px;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        position: relative;
+    }
+
+    .checkbox-label input[type="checkbox"]:checked {
+        background-color: white;
+        border-color: #1a5f1a;
+    }
+
+    .checkbox-label input[type="checkbox"]:checked::after {
+        content: '✓';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #1a5f1a;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .checkbox-text {
+        font-size: 16px;
+        line-height: 1.4;
+        /* Color inherited from parent */
+    }
+
+    .signup-btn {
+        width: 100%;
+        padding: 18px;
+        font-size: 18px;
+        font-weight: bold;
+        background: #000000;
+        color: #ffffff;
+        border: 1px solid black;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.2s;
+        margin-top: 10px;
+    }
+
+    .signup-btn:hover {
+        background: #f5f5f5;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .signup-btn:active {
+        transform: translateY(0);
+    }
+
+    .signup-btn:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+        transform: none;
+    }
+
+    .signup-message {
+        padding: 12px;
+        border-radius: 6px;
+        text-align: center;
+        font-size: 14px;
+        display: none;
+    }
+
+    .signup-message.success {
+        display: block;
+        background: rgba(255, 255, 255, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        /* Color inherited from parent */
+    }
+
+    .signup-message.error {
+        display: block;
+        background: rgba(0, 0, 0, 0.3);
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        /* Color inherited from parent */
+    }
+
+    .thank-you-message {
+        text-align: center;
+        padding: 40px 20px;
+        /* Color inherited from parent */
+    }
+
+    .thank-you-icon {
+        width: 80px;
+        height: 80px;
+        background: #FFFFFF;
+        color: #ffffff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 48px;
+        font-weight: bold;
+        margin: 0 auto 24px;
+    }
+
+    .thank-you-message h3 {
+        font-size: 28px;
+        margin-bottom: 16px;
+        font-weight: bold;
+    }
+
+    .thank-you-message p {
+        font-size: 16px;
+        line-height: 1.5;
+        opacity: 0.9;
+    }
+</style>
+
+<script>
+// Check if user has already signed up
+function checkSignupCookie() {
+    const productionId = document.querySelector('input[name="productionId"]').value;
+    const cookieName = `atp_signup_${productionId}`;
+    const cookies = document.cookie.split(';');
+
+    for (let cookie of cookies) {
+        const [name, value] = cookie.trim().split('=');
+        if (name === cookieName && value === 'true') {
+            showThankYou();
+            return true;
+        }
+    }
+    return false;
+}
+
+// Set signup cookie
+function setSignupCookie() {
+    const productionId = document.querySelector('input[name="productionId"]').value;
+    const cookieName = `atp_signup_${productionId}`;
+    // Set cookie for 1 year
+    const expires = new Date();
+    expires.setFullYear(expires.getFullYear() + 1);
+    document.cookie = `${cookieName}=true; expires=${expires.toUTCString()}; path=/`;
+}
+
+// Show thank you message
+function showThankYou(customMessage = null) {
+    const form = document.getElementById('signupForm');
+    const header = document.getElementById('signupHeader');
+    const thankYou = document.getElementById('thankYouMessage');
+
+    form.style.display = 'none';
+    header.style.display = 'none';
+    thankYou.style.display = 'block';
+
+    if (customMessage) {
+        document.getElementById('thankYouText').textContent = customMessage;
+    }
+}
+
+// Check on page load
+if (checkSignupCookie()) {
+    // Already signed up, show thank you message
+    console.log('User already signed up for this production');
+}
+
+document.getElementById('signupForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
+
+    const form = e.target;
+    const submitBtn = form.querySelector('.signup-btn');
+    const messageDiv = document.getElementById('signupMessage');
+
+    // Get form data
+    const email = form.email.value;
+    const signupShow = form.signupShow.checked;
+    const signupPlaybill = form.signupPlaybill.checked;
+    const productionId = form.productionId.value;
+    const productionName = form.productionName.value;
+
+    // Validate at least one checkbox is checked
+    if (!signupShow && !signupPlaybill) {
+        messageDiv.textContent = 'Please select at least one signup option';
+        messageDiv.className = 'signup-message error';
+        return;
+    }
+
+    // Disable button and show loading
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Signing Up...';
+    messageDiv.style.display = 'none';
+
+    try {
+        // Build request body (no CSRF token needed)
+        const requestBody = {
+            email: email,
+            signupShow: signupShow,
+            signupPlaybill: signupPlaybill,
+            productionId: productionId,
+            productionName: productionName
+        };
+
+        console.log('Sending request to:', '/actions/performance-manager/signup/submit');
+        console.log('Request body:', requestBody);
+
+        // Submit to backend
+        const response = await fetch('/actions/performance-manager/signup/submit', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-Requested-With': 'XMLHttpRequest'
+            },
+            body: JSON.stringify(requestBody)
+        });
+
+        console.log('Response status:', response.status);
+        console.log('Response OK:', response.ok);
+
+        // Check if response is OK
+        if (!response.ok) {
+            const errorText = await response.text();
+            console.error('Response error text:', errorText);
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const responseText = await response.text();
+        console.log('Response text:', responseText);
+
+        const result = JSON.parse(responseText);
+        console.log('Parsed result:', result);
+
+        if (result.success) {
+            // Set cookie to remember signup
+            setSignupCookie();
+
+            // Show thank you message
+            showThankYou(result.message);
+
+            // Reset button state
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Sign Up';
+        } else {
+            messageDiv.textContent = result.message || 'An error occurred. Please try again.';
+            messageDiv.className = 'signup-message error';
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Sign Up';
+        }
+    } catch (error) {
+        console.error('Signup error:', error);
+        console.error('Error stack:', error.stack);
+        messageDiv.textContent = 'An error occurred. Please try again. Check console for details.';
+        messageDiv.className = 'signup-message error';
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Sign Up';
+    }
+});
+</script>
+    
+    <footer style="margin-top: 25px; padding: 20px; text-align: center;">
+        <p style="font-size: 14px; color: #666; margin: 0;">Copyright 2025 © Playbill Inc. All Rights Reserved</p>
+    </footer>
+</div>
+
+    <div class="modal" id="priorModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title">Select Performance</div>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="performance-list">
+                                    <a href="https://atthisplaybill.com/hadestown?perf=130753" class="performance-item">
+                        Thu, Oct 8, 2026 at 7:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=130881" class="performance-item">
+                        Wed, Oct 7, 2026 at 7:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=130821" class="performance-item">
+                        Tue, Oct 6, 2026 at 7:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=130819" class="performance-item">
+                        Sun, Oct 4, 2026 at 3:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=130785" class="performance-item">
+                        Sat, Oct 3, 2026 at 7:30 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=130783" class="performance-item">
+                        Sat, Oct 3, 2026 at 2:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=130767" class="performance-item">
+                        Fri, Oct 2, 2026 at 7:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=130751" class="performance-item">
+                        Thu, Oct 1, 2026 at 7:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107861" class="performance-item">
+                        Wed, Sep 30, 2026 at 7:30 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107859" class="performance-item">
+                        Wed, Sep 30, 2026 at 2:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107759" class="performance-item">
+                        Tue, Sep 29, 2026 at 7:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107879" class="performance-item">
+                        Sun, Sep 27, 2026 at 3:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107873" class="performance-item">
+                        Sat, Sep 26, 2026 at 7:30 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107871" class="performance-item">
+                        Sat, Sep 26, 2026 at 2:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107779" class="performance-item">
+                        Thu, Sep 24, 2026 at 7:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107857" class="performance-item">
+                        Wed, Sep 23, 2026 at 7:30 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107855" class="performance-item">
+                        Wed, Sep 23, 2026 at 2:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107757" class="performance-item">
+                        Tue, Sep 22, 2026 at 7:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107877" class="performance-item">
+                        Sun, Sep 20, 2026 at 3:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107869" class="performance-item">
+                        Sat, Sep 19, 2026 at 7:30 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107867" class="performance-item">
+                        Sat, Sep 19, 2026 at 2:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107821" class="performance-item">
+                        Fri, Sep 18, 2026 at 7:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107777" class="performance-item">
+                        Thu, Sep 17, 2026 at 7:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107853" class="performance-item">
+                        Wed, Sep 16, 2026 at 7:30 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107851" class="performance-item">
+                        Wed, Sep 16, 2026 at 2:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107755" class="performance-item">
+                        Tue, Sep 15, 2026 at 7:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107875" class="performance-item">
+                        Sun, Sep 13, 2026 at 3:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107865" class="performance-item">
+                        Sat, Sep 12, 2026 at 7:30 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107863" class="performance-item">
+                        Sat, Sep 12, 2026 at 2:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107819" class="performance-item">
+                        Fri, Sep 11, 2026 at 7:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107775" class="performance-item">
+                        Thu, Sep 10, 2026 at 7:00 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107849" class="performance-item">
+                        Wed, Sep 9, 2026 at 7:30 PM
+                    </a>
+                                    <a href="https://atthisplaybill.com/hadestown?perf=107847" class="performance-item">
+                        Wed, Sep 9, 2026 at 2:00 PM
+                    </a>
+                            </div>
+        </div>
+    </div>
+
+    <script>
+        function openModal() {
+            document.getElementById('priorModal').classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('priorModal').classList.remove('active');
+        }
+
+        // Close modal when clicking outside
+        document.getElementById('priorModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+    </script>
+
+</body>
+</html>

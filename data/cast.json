@@ -1,0 +1,39 @@
+{
+  "_source": "Hadestown Playbill cast page (Oct 2026) + hadestown.com/broadway-cast",
+  "roles": [
+    {"id": "orpheus",    "name": "Orpheus",    "tracks": 1, "principals": ["Kayko"]},
+    {"id": "eurydice",   "name": "Eurydice",   "tracks": 1, "principals": ["Jasmin Savoy Brown"]},
+    {"id": "persephone", "name": "Persephone", "tracks": 1, "principals": ["Amber Iman"]},
+    {"id": "hades",      "name": "Hades",      "tracks": 1, "principals": ["Ben Davis"]},
+    {"id": "hermes",     "name": "Hermes",     "tracks": 1, "principals": ["Norbert Leo Butz"]},
+    {"id": "fates",      "name": "Fates",      "tracks": 3, "principals": ["Kelly Belarmino", "KC Dela Cruz", "Khori Michelle Petinaud"]},
+    {"id": "workers",    "name": "Workers",    "tracks": 5, "principals": ["Emily Afton", "Malcolm Armwood", "Jeffrey Cornelius", "Sydney Parra", "Alex Puette"]}
+  ],
+  "role_aliases": {
+    "Fate": "fates",
+    "Worker": "workers"
+  },
+  "performers": {
+    "Kayko":                    {"home": "orpheus",    "kind": "principal"},
+    "Jasmin Savoy Brown":       {"home": "eurydice",   "kind": "principal"},
+    "Amber Iman":               {"home": "persephone", "kind": "principal"},
+    "Ben Davis":                {"home": "hades",      "kind": "principal"},
+    "Norbert Leo Butz":         {"home": "hermes",     "kind": "principal"},
+    "Kelly Belarmino":          {"home": "fates",      "kind": "principal"},
+    "KC Dela Cruz":             {"home": "fates",      "kind": "principal", "covers": ["eurydice"]},
+    "Khori Michelle Petinaud":  {"home": "fates",      "kind": "principal", "covers": ["persephone"]},
+    "Emily Afton":              {"home": "workers",    "kind": "principal", "worker_slot_group": "femme", "covers": ["fates"]},
+    "Malcolm Armwood":          {"home": "workers",    "kind": "principal", "worker_slot_group": "masc", "covers": ["hermes"]},
+    "Jeffrey Cornelius":        {"home": "workers",    "kind": "principal", "worker_slot_group": "masc", "covers": ["orpheus"]},
+    "Sydney Parra":             {"home": "workers",    "kind": "principal", "worker_slot_group": "femme", "covers": ["eurydice", "fates"]},
+    "Alex Puette":              {"home": "workers",    "kind": "principal", "worker_slot_group": "masc", "covers": ["hades"]},
+    "Aryn Bohannon":            {"home": "swing",      "kind": "swing", "worker_slot_group": "femme", "covers": ["eurydice", "fates"], "preferred_track": "Sydney Parra"},
+    "Brandon Cameron":          {"home": "swing",      "kind": "swing", "worker_slot_group": "masc", "covers": ["orpheus"]},
+    "Tara Jackson":             {"home": "swing",      "kind": "swing", "worker_slot_group": "femme", "covers": ["persephone", "fates"]},
+    "Max Kumangai":             {"home": "swing",      "kind": "swing", "worker_slot_group": "masc", "covers": ["hades", "hermes"]},
+    "Alex Lugo":                {"home": "swing",      "kind": "swing", "worker_slot_group": "femme"},
+    "Tanner Ray Wilson":        {"home": "swing",      "kind": "swing"},
+    "Sojourner Brown":          {"home": "swing",      "kind": "swing"},
+    "Ayla Ciccone-Burton":      {"home": "swing",      "kind": "swing", "worker_slot_group": "femme"}
+  }
+}
