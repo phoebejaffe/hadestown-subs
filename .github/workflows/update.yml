@@ -2,8 +2,11 @@ name: Update Hadestown cast changes
 
 on:
   schedule:
-    # Daily at 9:23 AM UTC (5:23 AM EDT / 4:23 AM EST).
-    - cron: "23 9 * * *"
+    # Daily at 1:30 PM and 6:30 PM Eastern.
+    - cron: "30 13 * * *"
+      timezone: "America/New_York"
+    - cron: "30 18 * * *"
+      timezone: "America/New_York"
   workflow_dispatch:
 
 permissions:

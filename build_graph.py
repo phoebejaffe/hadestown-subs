@@ -243,6 +243,7 @@ TEMPLATE = r"""<!DOCTYPE html>
     line-height: 1.7;
   }
   .legend b { color: var(--gold); }
+  .legend b.blue { color: var(--blue); }
   @media (max-width: 640px) {
     :root { --label-width: 168px; --column-width: 112px; --headshot-size: 62px; }
     header { padding: 18px 16px 14px; }
@@ -256,7 +257,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 <body>
 <header>
   <h1>Hadestown &mdash; At This Performance</h1>
-  <div class="sub">Each cast track has its own row. Scroll through dates; arrows trace the same-performance cover chain.</div>
+  <div class="sub">Each cast track has its own row. Scroll through dates; arrows trace the same-performance cover chain. Data updates daily at 1:30 PM and 6:30 PM Eastern.</div>
 </header>
 <div id="date-sticky" aria-label="Performance dates">
   <div id="date-rail">Cast track</div>
@@ -269,7 +270,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 <div class="legend">
   <b>Gold ring</b> = substitute &nbsp;&middot;&nbsp;
   arrows connect a cast member moving to another role with the person covering their home track
-  &nbsp;&middot;&nbsp; blue dashed headshot border = swing entering from offstage.
+  &nbsp;&middot;&nbsp; <b class="blue">Blue dashed outline</b> = a swing is coming in.
   Fate and Worker covers are placed in a named track only when the source data identifies that track;
   otherwise they appear in an unassigned row. Worker covers use the supplied femme/masc track groups.
 </div>
