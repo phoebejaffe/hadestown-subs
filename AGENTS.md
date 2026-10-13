@@ -29,6 +29,7 @@ Pure stdlib, no deps. Takes ~30s.
 
 ## Scheduled publishing
 
+- Live site: https://phoebejaffe.github.io/hadestown-subs/
 - `.github/workflows/update.yml` runs daily at 09:23 UTC and can also be run
   manually with GitHub's `workflow_dispatch` button.
 - The workflow runs `scrape.py`, `fetch_headshots.py`, and `build_graph.py`,
