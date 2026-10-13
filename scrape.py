@@ -8,7 +8,9 @@ includes a random cache-buster query param to force an origin fetch.
 Outputs:
   data/raw/perf_<id>.html   raw HTML per performance
   data/performances.json    parsed data: date, role changes, performer bios
-  data/cast_changes.csv     flat table: date, perf_id, role, performer
+  data/cast_changes.csv     flat table: date, perf_id, role, performer, usual performer
+
+Use `python3 scrape.py --refresh` to re-fetch every currently listed performance.
 """
 
 import csv
@@ -70,20 +72,20 @@ def parse_performance(html, perf_id, expected_label):
     changes = []
     for block in re.finditer(r'class="role-change">(.*?)(?=class="role-change"|class="view-prior-btn")', html, re.S):
         b = block.group(1)
-        rm = re.search(
-            r"The role of <strong>([^<]+)</strong>.*?played by <strong>([^<]+)</strong>",
-            b, re.S,
-        )
-        if not rm:
+        role_m = re.search(r"The role of <strong>([^<]+)</strong>", b, re.S)
+        usual_m = re.search(r"Usually played by\s*<strong>([^<]+)</strong>", b, re.S)
+        will_m = re.search(r"Will be played by\s*<strong>([^<]+)</strong>", b, re.S)
+        if not role_m or not will_m:
             continue
-        role = strip_tags(rm.group(1))
-        performer = strip_tags(rm.group(2))
+        role = strip_tags(role_m.group(1))
+        performer = strip_tags(will_m.group(1))
         img = re.search(r'<img src="([^"]+)"', b)
         bio_m = re.search(r'class="performer-bio">(.*?)</div>', b, re.S)
         bio = re.sub(r"\s+", " ", strip_tags(bio_m.group(1))) if bio_m else None
         changes.append({
             "role": role,
             "performer": performer,
+            "replaces": strip_tags(usual_m.group(1)) if usual_m else None,
             "bio": bio,
             "headshot": img.group(1) if img else None,
         })
@@ -113,6 +115,7 @@ def parse_performance(html, perf_id, expected_label):
 
 
 def main():
+    refresh_all = "--refresh" in sys.argv[1:]
     RAW.mkdir(parents=True, exist_ok=True)
 
     print("Fetching performance list...")
@@ -154,38 +157,47 @@ def main():
 
     fetched = 0
     skipped = 0
+    if refresh_all:
+        print("Refreshing all listed performances")
     for i, (pid, label) in enumerate(perfs):
         pid_key = str(pid)
         known = by_id.get(pid_key)
-        if known and not known.get("error"):
+        if known and not known.get("error") and not refresh_all:
             skipped += 1
             continue
 
         expected_dt = norm_date(label).isoformat()
         same_date = by_datetime.get(expected_dt)
+        previous = known
         if same_date and not same_date.get("error"):
-            if same_date.get("perf_id") == "current":
-                same_date["perf_id"] = pid
-                same_date["expected_label"] = label
-                by_id.pop("current", None)
-                by_id[pid_key] = same_date
-                print(f"  Reused saved current performance as perf={pid}: {label}")
-            skipped += 1
-            continue
+            if not refresh_all:
+                if same_date.get("perf_id") == "current":
+                    same_date["perf_id"] = pid
+                    same_date["expected_label"] = label
+                    by_id.pop("current", None)
+                    by_id[pid_key] = same_date
+                    print(f"  Reused saved current performance as perf={pid}: {label}")
+                skipped += 1
+                continue
+            if previous is None:
+                previous = same_date
 
         url = f"{BASE}?perf={pid}"
         try:
             html = fetch(bust(url))
         except Exception as e:
             print(f"  [{i+1}/{len(perfs)}] perf={pid} {label}: FETCH ERROR {e}")
-            store(
-                {"perf_id": pid, "expected_label": label, "error": str(e)},
-                previous=known,
-            )
+            if refresh_all and previous:
+                print("    keeping saved data")
+            else:
+                store(
+                    {"perf_id": pid, "expected_label": label, "error": str(e)},
+                    previous=previous,
+                )
             continue
         (RAW / f"perf_{pid}.html").write_text(html)
         rec = parse_performance(html, pid, label)
-        store(rec, previous=known)
+        store(rec, previous=previous)
         fetched += 1
         flag = "" if rec["date_match"] else "  <-- MISMATCH (no data?)"
         print(f"  [{i+1}/{len(perfs)}] perf={pid} {label} -> {rec['date_text']} "
@@ -194,7 +206,10 @@ def main():
 
     existing_current = by_datetime.get(cur.get("datetime"))
     if existing_current:
-        print(f"  Current performance already saved: {cur['date_text']}")
+        cur["perf_id"] = existing_current.get("perf_id")
+        cur["expected_label"] = existing_current.get("expected_label") or cur["date_text"]
+        store(cur, previous=existing_current)
+        print(f"  Refreshed current performance: {cur['date_text']} ({len(cur['changes'])} changes)")
     else:
         previous_current = by_id.get("current")
         if previous_current:
@@ -209,14 +224,14 @@ def main():
     data_path.write_text(json.dumps(results, indent=2))
 
     with open(OUT / "cast_changes.csv", "w", newline="") as f:
-        w = csv.writer(f)
-        w.writerow(["datetime", "perf_id", "role", "performer"])
+        w = csv.writer(f, lineterminator="\n")
+        w.writerow(["datetime", "perf_id", "role", "performer", "replaces"])
         for r in results:
             for c in r.get("changes", []):
-                w.writerow([r.get("datetime"), r["perf_id"], c["role"], c["performer"]])
+                w.writerow([r.get("datetime"), r["perf_id"], c["role"], c["performer"], c.get("replaces") or ""])
 
     bad = [r for r in results if r.get("date_match") is False or r.get("error")]
-    print(f"\nDone. Fetched {fetched} missing performances; skipped {skipped} already saved.")
+    print(f"\nDone. Fetched {fetched} performance(s); skipped {skipped} already saved.")
     print(f"{len(results)} performances -> data/performances.json, data/cast_changes.csv")
     if bad:
         print(f"WARNING: {len(bad)} performance(s) did not return their own data:")

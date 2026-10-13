@@ -103,9 +103,9 @@
     "date_text": "Sun, Sep 13, 2026 at 3:00 PM",
     "datetime": "2026-09-13T15:00:00",
     "expected_label": "Sun, Sep 13, 2026 at 3:00 PM",
-    "date_match": true,
-    "served_date": null,
-    "no_changes": true,
+    "date_match": false,
+    "served_date": "Sun, Oct 11, 2026 at 7:30 PM",
+    "no_changes": false,
     "changes": []
   },
   {
@@ -130,6 +130,7 @@
       {
         "role": "Worker",
         "performer": "Max Kumangai",
+        "replaces": null,
         "bio": "he/him. Broadway: Jagged Little Pill, Waitress. Off-Broadway: What\u2019s That Smell, Lysistrata Jones, The Civil War. Tour: Waitress, Hair and Joseph\u2026. Five shows at Encores! TV: \u201cBoardwalk Empire\u201d and \u201cVinyl.\u201d BFA from UMich. Endless gratitude to creatives, SW Casting and Nicolosi and Co. Love to BT and my family!",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Max_Kumangai.jpg"
       }
@@ -157,12 +158,14 @@
       {
         "role": "Fate",
         "performer": "Emily Afton",
+        "replaces": null,
         "bio": "Broadway: Am\u00e9lie, Hair. National tour: Hair, Priscilla Queen of the Desert, I Love a Piano. Regional: Am\u00e9lie (CTG), Waitress (A.R.T.). When not doing theatre, she tours nationally singing with the bands Saved by the 90s and Emergency Tiara. BFA: Emerson College. Honored to get to tell this story. @emafton",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Emily_Afton.jpg"
       },
       {
         "role": "Worker",
         "performer": "Ayla Ciccone-Burton",
+        "replaces": null,
         "bio": "(Swing) Credits: Cabaret at the Kit Kat Club (Broadway), SIX (Broadway), The Great Gatsby (Paper Mill Playhouse), Tina\u2014The Tina Turner Musical (Broadway), The Book of Mormon (Australia). Sending gratitude to Marc and Dustin, her family and friends for their love and support and especially her mother, Jacob and Alfie! Stream her debut single \u201cShiny Thing\u201d out now. Stay weird y\u2019all\u2014hug a tree, gaze at the moon. @aylaccb",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Ayla_Ciccone-Burton.jpg"
       }
@@ -180,12 +183,14 @@
       {
         "role": "Fate",
         "performer": "Emily Afton",
+        "replaces": null,
         "bio": "Broadway: Am\u00e9lie, Hair. National tour: Hair, Priscilla Queen of the Desert, I Love a Piano. Regional: Am\u00e9lie (CTG), Waitress (A.R.T.). When not doing theatre, she tours nationally singing with the bands Saved by the 90s and Emergency Tiara. BFA: Emerson College. Honored to get to tell this story. @emafton",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Emily_Afton.jpg"
       },
       {
         "role": "Worker",
         "performer": "Ayla Ciccone-Burton",
+        "replaces": null,
         "bio": "(Swing) Credits: Cabaret at the Kit Kat Club (Broadway), SIX (Broadway), The Great Gatsby (Paper Mill Playhouse), Tina\u2014The Tina Turner Musical (Broadway), The Book of Mormon (Australia). Sending gratitude to Marc and Dustin, her family and friends for their love and support and especially her mother, Jacob and Alfie! Stream her debut single \u201cShiny Thing\u201d out now. Stay weird y\u2019all\u2014hug a tree, gaze at the moon. @aylaccb",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Ayla_Ciccone-Burton.jpg"
       }
@@ -203,12 +208,14 @@
       {
         "role": "Fate",
         "performer": "Emily Afton",
+        "replaces": null,
         "bio": "Broadway: Am\u00e9lie, Hair. National tour: Hair, Priscilla Queen of the Desert, I Love a Piano. Regional: Am\u00e9lie (CTG), Waitress (A.R.T.). When not doing theatre, she tours nationally singing with the bands Saved by the 90s and Emergency Tiara. BFA: Emerson College. Honored to get to tell this story. @emafton",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Emily_Afton.jpg"
       },
       {
         "role": "Worker",
         "performer": "Ayla Ciccone-Burton",
+        "replaces": null,
         "bio": "(Swing) Credits: Cabaret at the Kit Kat Club (Broadway), SIX (Broadway), The Great Gatsby (Paper Mill Playhouse), Tina\u2014The Tina Turner Musical (Broadway), The Book of Mormon (Australia). Sending gratitude to Marc and Dustin, her family and friends for their love and support and especially her mother, Jacob and Alfie! Stream her debut single \u201cShiny Thing\u201d out now. Stay weird y\u2019all\u2014hug a tree, gaze at the moon. @aylaccb",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Ayla_Ciccone-Burton.jpg"
       }
@@ -226,12 +233,14 @@
       {
         "role": "Fate",
         "performer": "Emily Afton",
+        "replaces": null,
         "bio": "Broadway: Am\u00e9lie, Hair. National tour: Hair, Priscilla Queen of the Desert, I Love a Piano. Regional: Am\u00e9lie (CTG), Waitress (A.R.T.). When not doing theatre, she tours nationally singing with the bands Saved by the 90s and Emergency Tiara. BFA: Emerson College. Honored to get to tell this story. @emafton",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Emily_Afton.jpg"
       },
       {
         "role": "Worker",
         "performer": "Ayla Ciccone-Burton",
+        "replaces": null,
         "bio": "(Swing) Credits: Cabaret at the Kit Kat Club (Broadway), SIX (Broadway), The Great Gatsby (Paper Mill Playhouse), Tina\u2014The Tina Turner Musical (Broadway), The Book of Mormon (Australia). Sending gratitude to Marc and Dustin, her family and friends for their love and support and especially her mother, Jacob and Alfie! Stream her debut single \u201cShiny Thing\u201d out now. Stay weird y\u2019all\u2014hug a tree, gaze at the moon. @aylaccb",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Ayla_Ciccone-Burton.jpg"
       }
@@ -249,12 +258,14 @@
       {
         "role": "Fate",
         "performer": "Emily Afton",
+        "replaces": null,
         "bio": "Broadway: Am\u00e9lie, Hair. National tour: Hair, Priscilla Queen of the Desert, I Love a Piano. Regional: Am\u00e9lie (CTG), Waitress (A.R.T.). When not doing theatre, she tours nationally singing with the bands Saved by the 90s and Emergency Tiara. BFA: Emerson College. Honored to get to tell this story. @emafton",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Emily_Afton.jpg"
       },
       {
         "role": "Worker",
         "performer": "Ayla Ciccone-Burton",
+        "replaces": null,
         "bio": "(Swing) Credits: Cabaret at the Kit Kat Club (Broadway), SIX (Broadway), The Great Gatsby (Paper Mill Playhouse), Tina\u2014The Tina Turner Musical (Broadway), The Book of Mormon (Australia). Sending gratitude to Marc and Dustin, her family and friends for their love and support and especially her mother, Jacob and Alfie! Stream her debut single \u201cShiny Thing\u201d out now. Stay weird y\u2019all\u2014hug a tree, gaze at the moon. @aylaccb",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Ayla_Ciccone-Burton.jpg"
       }
@@ -272,12 +283,14 @@
       {
         "role": "Worker",
         "performer": "Brandon Cameron",
+        "replaces": null,
         "bio": "Broadway debut! Regional: Sight&Sound, American Music Theatre. Film: Cupid for Christmas. So grateful and excited to be joining the Hadestown family. God is good! Love to Mom, Mikayla, Laurel, family, friends and mentors. Special thanks to Jeremy and the Nicolosi & Co. team. BFA Shenandoah University Conservatory \u201922. Instagram: @_de_la_musique",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Brandon_Cameron.jpg"
       },
       {
         "role": "Worker",
         "performer": "Aryn Bohannon",
+        "replaces": null,
         "bio": "(Swing, u/s Eurydice, u/s Fates). Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thankyou to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/aryn-headshot-1.webp"
       }
@@ -295,6 +308,7 @@
       {
         "role": "Worker",
         "performer": "Alex Lugo",
+        "replaces": null,
         "bio": "Alex uses they/them pronouns. International: Hadestown Australia. Tour: Hadestown, Rent 20th anniversary. Television: \u201cAnd Just Like That\u201d on MAX & \u201cThe Late Late Show With James Cordon.\u201d NYU Tisch alum. For my family, Adreanna, Ben & TNB2S+ pioneers.",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Lugo-5-5-25.jpg"
       }
@@ -312,18 +326,21 @@
       {
         "role": "Orpheus",
         "performer": "Brandon Cameron",
+        "replaces": null,
         "bio": "Broadway debut! Regional: Sight&Sound, American Music Theatre. Film: Cupid for Christmas. So grateful and excited to be joining the Hadestown family. God is good! Love to Mom, Mikayla, Laurel, family, friends and mentors. Special thanks to Jeremy and the Nicolosi & Co. team. BFA Shenandoah University Conservatory \u201922. Instagram: @_de_la_musique",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Brandon_Cameron.jpg"
       },
       {
         "role": "Fate",
         "performer": "Alex Lugo",
+        "replaces": null,
         "bio": "Alex uses they/them pronouns. International: Hadestown Australia. Tour: Hadestown, Rent 20th anniversary. Television: \u201cAnd Just Like That\u201d on MAX & \u201cThe Late Late Show With James Cordon.\u201d NYU Tisch alum. For my family, Adreanna, Ben & TNB2S+ pioneers.",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Lugo-5-5-25.jpg"
       },
       {
         "role": "Worker",
         "performer": "Tara Jackson",
+        "replaces": null,
         "bio": "is honored to have made her Broadway debut in Hadestown in 2021! Hailing from Calgary, Alberta, she is an honors graduate from Berklee College of Music. Favorite credits include her three-time award-winning performances of Celie in The Color Purple and Hadestown\u2019s Canadian premiere. For Rome and Tayo. @taraatee",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tara_Jackson.jpg"
       }
@@ -341,18 +358,21 @@
       {
         "role": "Orpheus",
         "performer": "Jeffrey Cornelius",
+        "replaces": null,
         "bio": "Broadway debut!! Jackson, MS, native. CCM alum. Tour: Dear Evan Hansen first national (alt. Evan). Regional: Senior Class (world premiere, Olney). Multiple workshops. Thank you to my family, community, DGRW, Team Hadestown and the man upstairs. @thejeffreycornelius. It takes a village.",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Jeffrey_Cornelius.jpeg"
       },
       {
         "role": "Worker",
         "performer": "Brandon Cameron",
+        "replaces": null,
         "bio": "Broadway debut! Regional: Sight&Sound, American Music Theatre. Film: Cupid for Christmas. So grateful and excited to be joining the Hadestown family. God is good! Love to Mom, Mikayla, Laurel, family, friends and mentors. Special thanks to Jeremy and the Nicolosi & Co. team. BFA Shenandoah University Conservatory \u201922. Instagram: @_de_la_musique",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Brandon_Cameron.jpg"
       },
       {
         "role": "Worker",
         "performer": "Max Kumangai",
+        "replaces": null,
         "bio": "he/him. Max is grateful to be in his fourth year at Hadestown. Broadway: Jagged Little Pill (OBC), Waitress (OBC). Off-Broadway: What\u2019s That Smell, Lysistrata Jones and The Civil War. First national tour: Waitress, Hair and Joseph. Five shows at Encores! Television/film: \u201cBoardwalk Empire\u201d and \u201cVinyl,\u201d and live capture of Waitress. Umich 2008!",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Max_Kumangai.jpg"
       }
@@ -370,18 +390,21 @@
       {
         "role": "Orpheus",
         "performer": "Brandon Cameron",
+        "replaces": null,
         "bio": "Broadway debut! Regional: Sight&Sound, American Music Theatre. Film: Cupid for Christmas. So grateful and excited to be joining the Hadestown family. God is good! Love to Mom, Mikayla, Laurel, family, friends and mentors. Special thanks to Jeremy and the Nicolosi & Co. team. BFA Shenandoah University Conservatory \u201922. Instagram: @_de_la_musique",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Brandon_Cameron.jpg"
       },
       {
         "role": "Worker",
         "performer": "Alex Lugo",
+        "replaces": null,
         "bio": "Alex uses they/them pronouns. International: Hadestown Australia. Tour: Hadestown, Rent 20th anniversary. Television: \u201cAnd Just Like That\u201d on MAX & \u201cThe Late Late Show With James Cordon.\u201d NYU Tisch alum. For my family, Adreanna, Ben & TNB2S+ pioneers.",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Lugo-5-5-25.jpg"
       },
       {
         "role": "Worker",
         "performer": "Aryn Bohannon",
+        "replaces": null,
         "bio": "(Swing, u/s Eurydice, u/s Fates). Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thankyou to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/AB-BW-4x5-v2.jpg"
       }
@@ -399,30 +422,35 @@
       {
         "role": "Orpheus",
         "performer": "Jeffrey Cornelius",
+        "replaces": null,
         "bio": "Broadway debut!! Jackson, MS, native. CCM alum. Tour: Dear Evan Hansen first national (alt. Evan). Regional: Senior Class (world premiere, Olney). Multiple workshops. Thank you to my family, community, DGRW, Team Hadestown and the man upstairs. @thejeffreycornelius. It takes a village.",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Jeffrey_Cornelius.jpeg"
       },
       {
         "role": "Persephone",
         "performer": "Khori Michelle Petinaud",
+        "replaces": null,
         "bio": "Broadway: Just in Time (OBC), Lempicka (OBC), Chicago the Musical, Moulin Rouge! The Musical (OBC), Aladdin the Musical (OBC) and Bob Fosse\u2019s Dancin\u2019 (Chita Award winner). Other credits include The Radio City Rockettes (2022 season), Sweet Gwen Suite (City Center; Hudson Valley Dance Festival). Television: \u201cThe Gilded Age,\u201d \u201cUp Here,\u201d Rent: Live, \u201cThe Marvelous Mrs. Maisel,\u201d \u201cVinyl,\u201d \u201cThe Knick\u201d and \u201cZ: The Beginning of Everything.\u201d Thank you to God, the entire Hadestown team, the loves of my life, Waynie and Carver, CESD and my family/friends! @kmr8787",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-K.-Petinaud-Cropped.jpg"
       },
       {
         "role": "Fate",
         "performer": "Emily Afton",
+        "replaces": null,
         "bio": "Broadway: Am\u00e9lie, Hair. National tour: Hair, Priscilla Queen of the Desert, I Love a Piano. Regional: Am\u00e9lie (CTG), Waitress (A.R.T.). When not doing theatre, she tours nationally singing with the bands Saved by the 90s and Emergency Tiara. BFA: Emerson College. Honored to get to tell this story. @emafton",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Emily_Afton.jpg"
       },
       {
         "role": "Worker",
         "performer": "Aryn Bohannon",
+        "replaces": null,
         "bio": "(Swing, u/s Eurydice, u/s Fates). Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thankyou to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/AB-BW-4x5-v2.jpg"
       },
       {
         "role": "Worker",
         "performer": "Max Kumangai",
+        "replaces": null,
         "bio": "he/him. Max is grateful to be in his fourth year at Hadestown. Broadway: Jagged Little Pill (OBC), Waitress (OBC). Off-Broadway: What\u2019s That Smell, Lysistrata Jones and The Civil War. First national tour: Waitress, Hair and Joseph. Five shows at Encores! Television/film: \u201cBoardwalk Empire\u201d and \u201cVinyl,\u201d and live capture of Waitress. Umich 2008!",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Max_Kumangai.jpg"
       }
@@ -440,24 +468,28 @@
       {
         "role": "Eurydice",
         "performer": "Sydney Parra",
+        "replaces": null,
         "bio": "Broadway debut. National tour: SIX, Hadestown. Off-Broadway: Teeth, We Are the Tigers. BFA Ithaca College. Thanks to the folks at Avalon and Lohne/Graham. Endless gratitude for my Hades fam. For mom and dad and all those who loved me into consciousness. @sydneyparra",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sydney_Parra.jpg"
       },
       {
         "role": "Orpheus",
         "performer": "Jeffrey Cornelius",
+        "replaces": null,
         "bio": "Broadway debut!! Jackson, MS, native. CCM alum. Tour: Dear Evan Hansen first national (alt. Evan). Regional: Senior Class (world premiere, Olney). Multiple workshops. Thank you to my family, community, DGRW, Team Hadestown and the man upstairs. @thejeffreycornelius. It takes a village.",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Jeffrey_Cornelius.jpeg"
       },
       {
         "role": "Worker",
         "performer": "Brandon Cameron",
+        "replaces": null,
         "bio": "Broadway debut! Regional: Sight&Sound, American Music Theatre. Film: Cupid for Christmas. So grateful and excited to be joining the Hadestown family. God is good! Love to Mom, Mikayla, Laurel, family, friends and mentors. Special thanks to Jeremy and the Nicolosi & Co. team. BFA Shenandoah University Conservatory \u201922. Instagram: @_de_la_musique",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Brandon_Cameron.jpg"
       },
       {
         "role": "Worker",
         "performer": "Max Kumangai",
+        "replaces": null,
         "bio": "he/him. Max is grateful to be in his fourth year at Hadestown. Broadway: Jagged Little Pill (OBC), Waitress (OBC). Off-Broadway: What\u2019s That Smell, Lysistrata Jones and The Civil War. First national tour: Waitress, Hair and Joseph. Five shows at Encores! Television/film: \u201cBoardwalk Empire\u201d and \u201cVinyl,\u201d and live capture of Waitress. Umich 2008!",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Max_Kumangai.jpg"
       }
@@ -475,42 +507,49 @@
       {
         "role": "Orpheus",
         "performer": "Brandon Cameron",
+        "replaces": null,
         "bio": "Broadway debut! Regional: Sight&Sound, American Music Theatre. Film: Cupid for Christmas. So grateful and excited to be joining the Hadestown family. God is good! Love to Mom, Mikayla, Laurel, family, friends and mentors. Special thanks to Jeremy and the Nicolosi & Co. team. BFA Shenandoah University Conservatory \u201922. Instagram: @_de_la_musique",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Brandon_Cameron.jpg"
       },
       {
         "role": "Eurydice",
         "performer": "Sydney Parra",
+        "replaces": null,
         "bio": "Broadway debut. National tour: SIX, Hadestown. Off-Broadway: Teeth, We Are the Tigers. BFA Ithaca College. Thanks to the folks at Avalon and Lohne/Graham. Endless gratitude for my Hades fam. For mom and dad and all those who loved me into consciousness. @sydneyparra",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sydney_Parra.jpg"
       },
       {
         "role": "Persephone",
         "performer": "Khori Michelle Petinaud",
+        "replaces": null,
         "bio": "Broadway: Just in Time (OBC), Lempicka (OBC), Chicago the Musical, Moulin Rouge! The Musical (OBC), Aladdin the Musical (OBC) and Bob Fosse\u2019s Dancin\u2019 (Chita Award winner). Other credits include The Radio City Rockettes (2022 season), Sweet Gwen Suite (City Center; Hudson Valley Dance Festival). Television: \u201cThe Gilded Age,\u201d \u201cUp Here,\u201d Rent: Live, \u201cThe Marvelous Mrs. Maisel,\u201d \u201cVinyl,\u201d \u201cThe Knick\u201d and \u201cZ: The Beginning of Everything.\u201d Thank you to God, the entire Hadestown team, the loves of my life, Waynie and Carver, CESD and my family/friends! @kmr8787",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-K.-Petinaud-Cropped.jpg"
       },
       {
         "role": "Fate",
         "performer": "Tara Jackson",
+        "replaces": null,
         "bio": "is honored to have made her Broadway debut in Hadestown in 2021! Hailing from Calgary, Alberta, she is an honors graduate from Berklee College of Music. Favorite credits include her three-time award-winning performances of Celie in The Color Purple and Hadestown\u2019s Canadian premiere. For Rome and Tayo. @taraatee",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tara_Jackson.jpg"
       },
       {
         "role": "Fate",
         "performer": "Alex Lugo",
+        "replaces": null,
         "bio": "Alex uses they/them pronouns. International: Hadestown Australia. Tour: Hadestown, Rent 20th anniversary. Television: \u201cAnd Just Like That\u201d on MAX & \u201cThe Late Late Show With James Cordon.\u201d NYU Tisch alum. For my family, Adreanna, Ben & TNB2S+ pioneers.",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Lugo-5-5-25.jpg"
       },
       {
         "role": "Worker",
         "performer": "Aryn Bohannon",
+        "replaces": null,
         "bio": "(Swing, u/s Eurydice, u/s Fates). Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thankyou to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/AB-BW-4x5-v2.jpg"
       },
       {
         "role": "Worker",
         "performer": "Max Kumangai",
+        "replaces": null,
         "bio": "he/him. Max is grateful to be in his fourth year at Hadestown. Broadway: Jagged Little Pill (OBC), Waitress (OBC). Off-Broadway: What\u2019s That Smell, Lysistrata Jones and The Civil War. First national tour: Waitress, Hair and Joseph. Five shows at Encores! Television/film: \u201cBoardwalk Empire\u201d and \u201cVinyl,\u201d and live capture of Waitress. Umich 2008!",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Max_Kumangai.jpg"
       }
@@ -528,36 +567,42 @@
       {
         "role": "Orpheus",
         "performer": "Jeffrey Cornelius",
+        "replaces": null,
         "bio": "Broadway debut!! Jackson, MS, native. CCM alum. Tour: Dear Evan Hansen first national (alt. Evan). Regional: Senior Class (world premiere, Olney). Multiple workshops. Thank you to my family, community, DGRW, Team Hadestown and the man upstairs. @thejeffreycornelius. It takes a village.",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Jeffrey_Cornelius.jpeg"
       },
       {
         "role": "Eurydice",
         "performer": "Sydney Parra",
+        "replaces": null,
         "bio": "Broadway debut. National tour: SIX, Hadestown. Off-Broadway: Teeth, We Are the Tigers. BFA Ithaca College. Thanks to the folks at Avalon and Lohne/Graham. Endless gratitude for my Hades fam. For mom and dad and all those who loved me into consciousness. @sydneyparra",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sydney_Parra.jpg"
       },
       {
         "role": "Fate",
         "performer": "Emily Afton",
+        "replaces": null,
         "bio": "Broadway: Am\u00e9lie, Hair. National tour: Hair, Priscilla Queen of the Desert, I Love a Piano. Regional: Am\u00e9lie (CTG), Waitress (A.R.T.). When not doing theatre, she tours nationally singing with the bands Saved by the 90s and Emergency Tiara. BFA: Emerson College. Honored to get to tell this story. @emafton",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Emily_Afton.jpg"
       },
       {
         "role": "Worker",
         "performer": "Aryn Bohannon",
+        "replaces": null,
         "bio": "(Swing, u/s Eurydice, u/s Fates). Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thankyou to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/AB-BW-4x5-v2.jpg"
       },
       {
         "role": "Worker",
         "performer": "Alex Lugo",
+        "replaces": null,
         "bio": "Alex uses they/them pronouns. International: Hadestown Australia. Tour: Hadestown, Rent 20th anniversary. Television: \u201cAnd Just Like That\u201d on MAX & \u201cThe Late Late Show With James Cordon.\u201d NYU Tisch alum. For my family, Adreanna, Ben & TNB2S+ pioneers.",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Lugo-5-5-25.jpg"
       },
       {
         "role": "Worker",
         "performer": "Max Kumangai",
+        "replaces": null,
         "bio": "he/him. Max is grateful to be in his fourth year at Hadestown. Broadway: Jagged Little Pill (OBC), Waitress (OBC). Off-Broadway: What\u2019s That Smell, Lysistrata Jones and The Civil War. First national tour: Waitress, Hair and Joseph. Five shows at Encores! Television/film: \u201cBoardwalk Empire\u201d and \u201cVinyl,\u201d and live capture of Waitress. Umich 2008!",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Max_Kumangai.jpg"
       }
@@ -575,24 +620,28 @@
       {
         "role": "Eurydice",
         "performer": "Sydney Parra",
+        "replaces": null,
         "bio": "Broadway debut. National tour: SIX, Hadestown. Off-Broadway: Teeth, We Are the Tigers. BFA Ithaca College. Thanks to the folks at Avalon and Lohne/Graham. Endless gratitude for my Hades fam. For mom and dad and all those who loved me into consciousness. @sydneyparra",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sydney_Parra.jpg"
       },
       {
         "role": "Fate",
         "performer": "Emily Afton",
+        "replaces": null,
         "bio": "Broadway: Am\u00e9lie, Hair. National tour: Hair, Priscilla Queen of the Desert, I Love a Piano. Regional: Am\u00e9lie (CTG), Waitress (A.R.T.). When not doing theatre, she tours nationally singing with the bands Saved by the 90s and Emergency Tiara. BFA: Emerson College. Honored to get to tell this story. @emafton",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Emily_Afton.jpg"
       },
       {
         "role": "Worker",
         "performer": "Alex Lugo",
+        "replaces": null,
         "bio": "Alex uses they/them pronouns. International: Hadestown Australia. Tour: Hadestown, Rent 20th anniversary. Television: \u201cAnd Just Like That\u201d on MAX & \u201cThe Late Late Show With James Cordon.\u201d NYU Tisch alum. For my family, Adreanna, Ben & TNB2S+ pioneers.",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Lugo-5-5-25.jpg"
       },
       {
         "role": "Worker",
         "performer": "Aryn Bohannon",
+        "replaces": null,
         "bio": "Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thank you to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Bohannon-Cropped.jpg"
       }
@@ -610,24 +659,28 @@
       {
         "role": "Eurydice",
         "performer": "Sydney Parra",
+        "replaces": null,
         "bio": "Broadway debut. National tour: SIX, Hadestown. Off-Broadway: Teeth, We Are the Tigers. BFA Ithaca College. Thanks to the folks at Avalon and Lohne/Graham. Endless gratitude for my Hades fam. For mom and dad and all those who loved me into consciousness. @sydneyparra",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sydney_Parra.jpg"
       },
       {
         "role": "Fate",
         "performer": "Emily Afton",
+        "replaces": null,
         "bio": "Broadway: Am\u00e9lie, Hair. National tour: Hair, Priscilla Queen of the Desert, I Love a Piano. Regional: Am\u00e9lie (CTG), Waitress (A.R.T.). When not doing theatre, she tours nationally singing with the bands Saved by the 90s and Emergency Tiara. BFA: Emerson College. Honored to get to tell this story. @emafton",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Emily_Afton.jpg"
       },
       {
         "role": "Worker",
         "performer": "Alex Lugo",
+        "replaces": null,
         "bio": "Alex uses they/them pronouns. International: Hadestown Australia. Tour: Hadestown, Rent 20th anniversary. Television: \u201cAnd Just Like That\u201d on MAX & \u201cThe Late Late Show With James Cordon.\u201d NYU Tisch alum. For my family, Adreanna, Ben & TNB2S+ pioneers.",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Lugo-5-5-25.jpg"
       },
       {
         "role": "Worker",
         "performer": "Aryn Bohannon",
+        "replaces": null,
         "bio": "Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thank you to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Bohannon-Cropped.jpg"
       }
@@ -645,18 +698,21 @@
       {
         "role": "Eurydice",
         "performer": "Sydney Parra",
+        "replaces": null,
         "bio": "Broadway debut. National tour: SIX, Hadestown. Off-Broadway: Teeth, We Are the Tigers. BFA Ithaca College. Thanks to the folks at Avalon and Lohne/Graham. Endless gratitude for my Hades fam. For mom and dad and all those who loved me into consciousness. @sydneyparra",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sydney_Parra.jpg"
       },
       {
         "role": "Fate",
         "performer": "Alex Lugo",
+        "replaces": null,
         "bio": "Alex uses they/them pronouns. International: Hadestown Australia. Tour: Hadestown, Rent 20th anniversary. Television: \u201cAnd Just Like That\u201d on MAX & \u201cThe Late Late Show With James Cordon.\u201d NYU Tisch alum. For my family, Adreanna, Ben & TNB2S+ pioneers.",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Lugo-5-5-25.jpg"
       },
       {
         "role": "Worker",
         "performer": "Aryn Bohannon",
+        "replaces": null,
         "bio": "Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thank you to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Bohannon-Cropped.jpg"
       }
@@ -674,24 +730,28 @@
       {
         "role": "Eurydice",
         "performer": "KC Dela Cruz",
+        "replaces": null,
         "bio": "National tour: Hadestown. Regional: Kiss My Aztec! (Berkeley Rep/La Jolla Playhouse/Hartford Stage); The Prince of Egypt (TheatreWorks); In the Heights (Woodminster); The Little Mermaid (Tri-Valley Rep); West Side Story (City Lights); Miss Saigon (Palo Alto Players). Television: \u201cI Can See Your Voice,\u201d \u201cThe Voice Philippines.\u201d Endless gratitude to my friends, my Hadestown family and DGRW who have always been by my side. All the love to Disco, Kenny and my mom and dad! @kcdelacruz",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/100874/Hadestown-KC-Dela-Cruz-12-8-25.jpg"
       },
       {
         "role": "Hades",
         "performer": "Max Kumangai",
+        "replaces": null,
         "bio": "he/him. Max is grateful to be in his fourth year at Hadestown. Broadway: Jagged Little Pill (OBC), Waitress (OBC). Off-Broadway: What\u2019s That Smell, Lysistrata Jones and The Civil War. First national tour: Waitress, Hair and Joseph. Five shows at Encores! Television/film: \u201cBoardwalk Empire\u201d and \u201cVinyl,\u201d and live capture of Waitress. Umich 2008!",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Max_Kumangai.jpg"
       },
       {
         "role": "Fate",
         "performer": "Tara Jackson",
+        "replaces": null,
         "bio": "is honored to have made her Broadway debut in Hadestown in 2021! Hailing from Calgary, Alberta, she is an honors graduate from Berklee College of Music. Favorite credits include her three-time award-winning performances of Celie in The Color Purple and Hadestown\u2019s Canadian premiere. For Rome and Tayo. @taraatee",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tara_Jackson.jpg"
       },
       {
         "role": "Fate",
         "performer": "Alex Lugo",
+        "replaces": null,
         "bio": "Alex uses they/them pronouns. International: Hadestown Australia. Tour: Hadestown, Rent 20th anniversary. Television: \u201cAnd Just Like That\u201d on MAX & \u201cThe Late Late Show With James Cordon.\u201d NYU Tisch alum. For my family, Adreanna, Ben & TNB2S+ pioneers.",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Lugo-5-5-25.jpg"
       }
@@ -709,36 +769,42 @@
       {
         "role": "Orpheus",
         "performer": "Brandon Cameron",
+        "replaces": null,
         "bio": "Broadway debut! Regional: Sight&Sound, American Music Theatre. Film: Cupid for Christmas. So grateful and excited to be joining the Hadestown family. God is good! Love to Mom, Mikayla, Laurel, family, friends and mentors. Special thanks to Jeremy and the Nicolosi & Co. team. BFA Shenandoah University Conservatory \u201922. Instagram: @_de_la_musique",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Brandon_Cameron.jpg"
       },
       {
         "role": "Eurydice",
         "performer": "KC Dela Cruz",
+        "replaces": null,
         "bio": "National tour: Hadestown. Regional: Kiss My Aztec! (Berkeley Rep/La Jolla Playhouse/Hartford Stage); The Prince of Egypt (TheatreWorks); In the Heights (Woodminster); The Little Mermaid (Tri-Valley Rep); West Side Story (City Lights); Miss Saigon (Palo Alto Players). Television: \u201cI Can See Your Voice,\u201d \u201cThe Voice Philippines.\u201d Endless gratitude to my friends, my Hadestown family and DGRW who have always been by my side. All the love to Disco, Kenny and my mom and dad! @kcdelacruz",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/100874/Hadestown-KC-Dela-Cruz-12-8-25.jpg"
       },
       {
         "role": "Hades",
         "performer": "Alex Puette",
+        "replaces": null,
         "bio": "Broadway debut! Tours: Legally Blonde, Young Frankenstein, A Christmas Story, Riff in West Side Story (international). Favorite regional: Jersey Boys (Nick Massi), Singin\u2019 in the Rain (Don Lockwood), Joseph\u2026 (Pharaoh), A Chorus Line (Greg). BFA: University of Michigan. Endless gratitude to Mom and Dad, Brad and Margo, Archie and Billy. For JoJo. @apuette",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Alex_Puette.jpg"
       },
       {
         "role": "Fate",
         "performer": "Tara Jackson",
+        "replaces": null,
         "bio": "is honored to have made her Broadway debut in Hadestown in 2021! Hailing from Calgary, Alberta, she is an honors graduate from Berklee College of Music. Favorite credits include her three-time award-winning performances of Celie in The Color Purple and Hadestown\u2019s Canadian premiere. For Rome and Tayo. @taraatee",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tara_Jackson.jpg"
       },
       {
         "role": "Fate",
         "performer": "Alex Lugo",
+        "replaces": null,
         "bio": "Alex uses they/them pronouns. International: Hadestown Australia. Tour: Hadestown, Rent 20th anniversary. Television: \u201cAnd Just Like That\u201d on MAX & \u201cThe Late Late Show With James Cordon.\u201d NYU Tisch alum. For my family, Adreanna, Ben & TNB2S+ pioneers.",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Lugo-5-5-25.jpg"
       },
       {
         "role": "Worker",
         "performer": "Max Kumangai",
+        "replaces": null,
         "bio": "he/him. Max is grateful to be in his fourth year at Hadestown. Broadway: Jagged Little Pill (OBC), Waitress (OBC). Off-Broadway: What\u2019s That Smell, Lysistrata Jones and The Civil War. First national tour: Waitress, Hair and Joseph. Five shows at Encores! Television/film: \u201cBoardwalk Empire\u201d and \u201cVinyl,\u201d and live capture of Waitress. Umich 2008!",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Max_Kumangai.jpg"
       }
@@ -756,30 +822,35 @@
       {
         "role": "Eurydice",
         "performer": "KC Dela Cruz",
+        "replaces": null,
         "bio": "National tour: Hadestown. Regional: Kiss My Aztec! (Berkeley Rep/La Jolla Playhouse/Hartford Stage); The Prince of Egypt (TheatreWorks); In the Heights (Woodminster); The Little Mermaid (Tri-Valley Rep); West Side Story (City Lights); Miss Saigon (Palo Alto Players). Television: \u201cI Can See Your Voice,\u201d \u201cThe Voice Philippines.\u201d Endless gratitude to my friends, my Hadestown family and DGRW who have always been by my side. All the love to Disco, Kenny and my mom and dad! @kcdelacruz",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/100874/Hadestown-KC-Dela-Cruz-12-8-25.jpg"
       },
       {
         "role": "Hades",
         "performer": "Alex Puette",
+        "replaces": null,
         "bio": "Broadway debut! Tours: Legally Blonde, Young Frankenstein, A Christmas Story, Riff in West Side Story (international). Favorite regional: Jersey Boys (Nick Massi), Singin\u2019 in the Rain (Don Lockwood), Joseph\u2026 (Pharaoh), A Chorus Line (Greg). BFA: University of Michigan. Endless gratitude to Mom and Dad, Brad and Margo, Archie and Billy. For JoJo. @apuette",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Alex_Puette.jpg"
       },
       {
         "role": "Fate",
         "performer": "Tara Jackson",
+        "replaces": null,
         "bio": "is honored to have made her Broadway debut in Hadestown in 2021! Hailing from Calgary, Alberta, she is an honors graduate from Berklee College of Music. Favorite credits include her three-time award-winning performances of Celie in The Color Purple and Hadestown\u2019s Canadian premiere. For Rome and Tayo. @taraatee",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tara_Jackson.jpg"
       },
       {
         "role": "Fate",
         "performer": "Alex Lugo",
+        "replaces": null,
         "bio": "Alex uses they/them pronouns. International: Hadestown Australia. Tour: Hadestown, Rent 20th anniversary. Television: \u201cAnd Just Like That\u201d on MAX & \u201cThe Late Late Show With James Cordon.\u201d NYU Tisch alum. For my family, Adreanna, Ben & TNB2S+ pioneers.",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Lugo-5-5-25.jpg"
       },
       {
         "role": "Worker",
         "performer": "Max Kumangai",
+        "replaces": null,
         "bio": "he/him. Max is grateful to be in his fourth year at Hadestown. Broadway: Jagged Little Pill (OBC), Waitress (OBC). Off-Broadway: What\u2019s That Smell, Lysistrata Jones and The Civil War. First national tour: Waitress, Hair and Joseph. Five shows at Encores! Television/film: \u201cBoardwalk Empire\u201d and \u201cVinyl,\u201d and live capture of Waitress. Umich 2008!",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Max_Kumangai.jpg"
       }
@@ -797,30 +868,35 @@
       {
         "role": "Eurydice",
         "performer": "KC Dela Cruz",
+        "replaces": null,
         "bio": "National tour: Hadestown. Regional: Kiss My Aztec! (Berkeley Rep/La Jolla Playhouse/Hartford Stage); The Prince of Egypt (TheatreWorks); In the Heights (Woodminster); The Little Mermaid (Tri-Valley Rep); West Side Story (City Lights); Miss Saigon (Palo Alto Players). Television: \u201cI Can See Your Voice,\u201d \u201cThe Voice Philippines.\u201d Endless gratitude to my friends, my Hadestown family and DGRW who have always been by my side. All the love to Disco, Kenny and my mom and dad! @kcdelacruz",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/100874/Hadestown-KC-Dela-Cruz-12-8-25.jpg"
       },
       {
         "role": "Hades",
         "performer": "Alex Puette",
+        "replaces": null,
         "bio": "Broadway debut! Tours: Legally Blonde, Young Frankenstein, A Christmas Story, Riff in West Side Story (international). Favorite regional: Jersey Boys (Nick Massi), Singin\u2019 in the Rain (Don Lockwood), Joseph\u2026 (Pharaoh), A Chorus Line (Greg). BFA: University of Michigan. Endless gratitude to Mom and Dad, Brad and Margo, Archie and Billy. For JoJo. @apuette",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Alex_Puette.jpg"
       },
       {
         "role": "Fate",
         "performer": "Tara Jackson",
+        "replaces": null,
         "bio": "is honored to have made her Broadway debut in Hadestown in 2021! Hailing from Calgary, Alberta, she is an honors graduate from Berklee College of Music. Favorite credits include her three-time award-winning performances of Celie in The Color Purple and Hadestown\u2019s Canadian premiere. For Rome and Tayo. @taraatee",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tara_Jackson.jpg"
       },
       {
         "role": "Fate",
         "performer": "Alex Lugo",
+        "replaces": null,
         "bio": "Alex uses they/them pronouns. International: Hadestown Australia. Tour: Hadestown, Rent 20th anniversary. Television: \u201cAnd Just Like That\u201d on MAX & \u201cThe Late Late Show With James Cordon.\u201d NYU Tisch alum. For my family, Adreanna, Ben & TNB2S+ pioneers.",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Lugo-5-5-25.jpg"
       },
       {
         "role": "Worker",
         "performer": "Brandon Cameron",
+        "replaces": null,
         "bio": "Broadway debut! Regional: Sight&Sound, American Music Theatre. Film: Cupid for Christmas. So grateful and excited to be joining the Hadestown family. God is good! Love to Mom, Mikayla, Laurel, family, friends and mentors. Special thanks to Jeremy and the Nicolosi & Co. team. BFA Shenandoah University Conservatory \u201922. Instagram: @_de_la_musique",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Brandon_Cameron.jpg"
       }
@@ -838,18 +914,21 @@
       {
         "role": "Eurydice",
         "performer": "Sydney Parra",
+        "replaces": null,
         "bio": "Broadway debut. National tour: SIX, Hadestown. Off-Broadway: Teeth, We Are the Tigers. BFA Ithaca College. Thanks to the folks at Avalon and Lohne/Graham. Endless gratitude for my Hades fam. For mom and dad and all those who loved me into consciousness. @sydneyparra",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sydney_Parra.jpg"
       },
       {
         "role": "Fate",
         "performer": "Tara Jackson",
+        "replaces": null,
         "bio": "is honored to have made her Broadway debut in Hadestown in 2021! Hailing from Calgary, Alberta, she is an honors graduate from Berklee College of Music. Favorite credits include her three-time award-winning performances of Celie in The Color Purple and Hadestown\u2019s Canadian premiere. For Rome and Tayo. @taraatee",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tara_Jackson.jpg"
       },
       {
         "role": "Worker",
         "performer": "Aryn Bohannon",
+        "replaces": null,
         "bio": "Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thank you to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Bohannon-Cropped.jpg"
       }
@@ -867,30 +946,35 @@
       {
         "role": "Eurydice",
         "performer": "KC Dela Cruz",
+        "replaces": null,
         "bio": "National tour: Hadestown. Regional: Kiss My Aztec! (Berkeley Rep/La Jolla Playhouse/Hartford Stage); The Prince of Egypt (TheatreWorks); In the Heights (Woodminster); The Little Mermaid (Tri-Valley Rep); West Side Story (City Lights); Miss Saigon (Palo Alto Players). Television: \u201cI Can See Your Voice,\u201d \u201cThe Voice Philippines.\u201d Endless gratitude to my friends, my Hadestown family and DGRW who have always been by my side. All the love to Disco, Kenny and my mom and dad! @kcdelacruz",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/100874/Hadestown-KC-Dela-Cruz-12-8-25.jpg"
       },
       {
         "role": "Fate",
         "performer": "Emily Afton",
+        "replaces": null,
         "bio": "Broadway: Am\u00e9lie, Hair. National tour: Hair, Priscilla Queen of the Desert, I Love a Piano. Regional: Am\u00e9lie (CTG), Waitress (A.R.T.). When not doing theatre, she tours nationally singing with the bands Saved by the 90s and Emergency Tiara. BFA: Emerson College. Honored to get to tell this story. @emafton",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Emily_Afton.jpg"
       },
       {
         "role": "Fate",
         "performer": "Sydney Parra",
+        "replaces": null,
         "bio": "Broadway debut. National tour: SIX, Hadestown. Off-Broadway: Teeth, We Are the Tigers. BFA Ithaca College. Thanks to the folks at Avalon and Lohne/Graham. Endless gratitude for my Hades fam. For mom and dad and all those who loved me into consciousness. @sydneyparra",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sydney_Parra.jpg"
       },
       {
         "role": "Worker",
         "performer": "Aryn Bohannon",
+        "replaces": null,
         "bio": "Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thank you to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Bohannon-Cropped.jpg"
       },
       {
         "role": "Worker",
         "performer": "Max Kumangai",
+        "replaces": null,
         "bio": "he/him. Max is grateful to be in his fourth year at Hadestown. Broadway: Jagged Little Pill (OBC), Waitress (OBC). Off-Broadway: What\u2019s That Smell, Lysistrata Jones and The Civil War. First national tour: Waitress, Hair and Joseph. Five shows at Encores! Television/film: \u201cBoardwalk Empire\u201d and \u201cVinyl,\u201d and live capture of Waitress. Umich 2008!",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Max_Kumangai.jpg"
       }
@@ -908,24 +992,28 @@
       {
         "role": "Eurydice",
         "performer": "KC Dela Cruz",
+        "replaces": null,
         "bio": "National tour: Hadestown. Regional: Kiss My Aztec! (Berkeley Rep/La Jolla Playhouse/Hartford Stage); The Prince of Egypt (TheatreWorks); In the Heights (Woodminster); The Little Mermaid (Tri-Valley Rep); West Side Story (City Lights); Miss Saigon (Palo Alto Players). Television: \u201cI Can See Your Voice,\u201d \u201cThe Voice Philippines.\u201d Endless gratitude to my friends, my Hadestown family and DGRW who have always been by my side. All the love to Disco, Kenny and my mom and dad! @kcdelacruz",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/100874/Hadestown-KC-Dela-Cruz-12-8-25.jpg"
       },
       {
         "role": "Fate",
         "performer": "Tara Jackson",
+        "replaces": null,
         "bio": "is honored to have made her Broadway debut in Hadestown in 2021! Hailing from Calgary, Alberta, she is an honors graduate from Berklee College of Music. Favorite credits include her three-time award-winning performances of Celie in The Color Purple and Hadestown\u2019s Canadian premiere. For Rome and Tayo. @taraatee",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tara_Jackson.jpg"
       },
       {
         "role": "Fate",
         "performer": "Sydney Parra",
+        "replaces": null,
         "bio": "Broadway debut. National tour: SIX, Hadestown. Off-Broadway: Teeth, We Are the Tigers. BFA Ithaca College. Thanks to the folks at Avalon and Lohne/Graham. Endless gratitude for my Hades fam. For mom and dad and all those who loved me into consciousness. @sydneyparra",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sydney_Parra.jpg"
       },
       {
         "role": "Worker",
         "performer": "Aryn Bohannon",
+        "replaces": null,
         "bio": "Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thank you to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Bohannon-Cropped.jpg"
       }
@@ -943,30 +1031,35 @@
       {
         "role": "Eurydice",
         "performer": "KC Dela Cruz",
+        "replaces": null,
         "bio": "National tour: Hadestown. Regional: Kiss My Aztec! (Berkeley Rep/La Jolla Playhouse/Hartford Stage); The Prince of Egypt (TheatreWorks); In the Heights (Woodminster); The Little Mermaid (Tri-Valley Rep); West Side Story (City Lights); Miss Saigon (Palo Alto Players). Television: \u201cI Can See Your Voice,\u201d \u201cThe Voice Philippines.\u201d Endless gratitude to my friends, my Hadestown family and DGRW who have always been by my side. All the love to Disco, Kenny and my mom and dad! @kcdelacruz",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/100874/Hadestown-KC-Dela-Cruz-12-8-25.jpg"
       },
       {
         "role": "Fate",
         "performer": "Sydney Parra",
+        "replaces": null,
         "bio": "Broadway debut. National tour: SIX, Hadestown. Off-Broadway: Teeth, We Are the Tigers. BFA Ithaca College. Thanks to the folks at Avalon and Lohne/Graham. Endless gratitude for my Hades fam. For mom and dad and all those who loved me into consciousness. @sydneyparra",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sydney_Parra.jpg"
       },
       {
         "role": "Fate",
         "performer": "Emily Afton",
+        "replaces": null,
         "bio": "Broadway: Am\u00e9lie, Hair. National tour: Hair, Priscilla Queen of the Desert, I Love a Piano. Regional: Am\u00e9lie (CTG), Waitress (A.R.T.). When not doing theatre, she tours nationally singing with the bands Saved by the 90s and Emergency Tiara. BFA: Emerson College. Honored to get to tell this story. @emafton",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Emily_Afton.jpg"
       },
       {
         "role": "Worker",
         "performer": "Aryn Bohannon",
+        "replaces": null,
         "bio": "Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thank you to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Bohannon-Cropped.jpg"
       },
       {
         "role": "Worker",
         "performer": "Tanner Ray Wilson",
+        "replaces": null,
         "bio": "(Swing) Broadway: Cats, Head Over Heels (OBC). Other favorites include R+H\u2019s Cinderella (first national), Radio City\u2019s NY Spectacular, \u201cSaturday Night Live\u201d and Lempicka: A New Musical (associate choreographer, La Jolla Playhouse). All my love to my family, CESD, Ruby. Cheers! @tannerraywilson",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tanner_Ray_Wilson.jpg"
       }
@@ -984,30 +1077,35 @@
       {
         "role": "Eurydice",
         "performer": "KC Dela Cruz",
+        "replaces": null,
         "bio": "National tour: Hadestown. Regional: Kiss My Aztec! (Berkeley Rep/La Jolla Playhouse/Hartford Stage); The Prince of Egypt (TheatreWorks); In the Heights (Woodminster); The Little Mermaid (Tri-Valley Rep); West Side Story (City Lights); Miss Saigon (Palo Alto Players). Television: \u201cI Can See Your Voice,\u201d \u201cThe Voice Philippines.\u201d Endless gratitude to my friends, my Hadestown family and DGRW who have always been by my side. All the love to Disco, Kenny and my mom and dad! @kcdelacruz",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/100874/Hadestown-KC-Dela-Cruz-12-8-25.jpg"
       },
       {
         "role": "Fate",
         "performer": "Sydney Parra",
+        "replaces": null,
         "bio": "Broadway debut. National tour: SIX, Hadestown. Off-Broadway: Teeth, We Are the Tigers. BFA Ithaca College. Thanks to the folks at Avalon and Lohne/Graham. Endless gratitude for my Hades fam. For mom and dad and all those who loved me into consciousness. @sydneyparra",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sydney_Parra.jpg"
       },
       {
         "role": "Fate",
         "performer": "Emily Afton",
+        "replaces": null,
         "bio": "Broadway: Am\u00e9lie, Hair. National tour: Hair, Priscilla Queen of the Desert, I Love a Piano. Regional: Am\u00e9lie (CTG), Waitress (A.R.T.). When not doing theatre, she tours nationally singing with the bands Saved by the 90s and Emergency Tiara. BFA: Emerson College. Honored to get to tell this story. @emafton",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Emily_Afton.jpg"
       },
       {
         "role": "Worker",
         "performer": "Tanner Ray Wilson",
+        "replaces": null,
         "bio": "(Swing) Broadway: Cats, Head Over Heels (OBC). Other favorites include R+H\u2019s Cinderella (first national), Radio City\u2019s NY Spectacular, \u201cSaturday Night Live\u201d and Lempicka: A New Musical (associate choreographer, La Jolla Playhouse). All my love to my family, CESD, Ruby. Cheers! @tannerraywilson",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tanner_Ray_Wilson.jpg"
       },
       {
         "role": "Worker",
         "performer": "Alex Lugo",
+        "replaces": null,
         "bio": "Alex uses they/them pronouns. International:Hadestown Australia. Tour: Hadestown, Rent20th anniversary. Television: \u201cAnd Just LikeThat\u201d on MAX & \u201cThe Late Late Show WithJames Cordon.\u201d NYU Tisch alum. For myfamily, Adreanna, Ben & TNB2S+ pioneers.",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Lugo-5-5-25.jpg"
       }
@@ -1025,12 +1123,14 @@
       {
         "role": "Fate",
         "performer": "Sydney Parra",
+        "replaces": null,
         "bio": "Broadway debut. National tour: SIX, Hadestown. Off-Broadway: Teeth, We Are the Tigers. BFA Ithaca College. Thanks to the folks at Avalon and Lohne/Graham. Endless gratitude for my Hades fam. For mom and dad and all those who loved me into consciousness. @sydneyparra",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sydney_Parra.jpg"
       },
       {
         "role": "Worker",
         "performer": "Alex Lugo",
+        "replaces": null,
         "bio": "Alex uses they/them pronouns. International:Hadestown Australia. Tour: Hadestown, Rent20th anniversary. Television: \u201cAnd Just LikeThat\u201d on MAX & \u201cThe Late Late Show WithJames Cordon.\u201d NYU Tisch alum. For myfamily, Adreanna, Ben & TNB2S+ pioneers.",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Lugo-5-5-25.jpg"
       }
@@ -1048,30 +1148,35 @@
       {
         "role": "Eurydice",
         "performer": "Sydney Parra",
+        "replaces": null,
         "bio": "Broadway debut. National tour: SIX, Hadestown. Off-Broadway: Teeth, We Are the Tigers. BFA Ithaca College. Thanks to the folks at Avalon and Lohne/Graham. Endless gratitude for my Hades fam. For mom and dad and all those who loved me into consciousness. @sydneyparra",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sydney_Parra.jpg"
       },
       {
         "role": "Fate",
         "performer": "Tara Jackson",
+        "replaces": null,
         "bio": "is honored to have made her Broadway debut in Hadestown in 2021! Hailing from Calgary, Alberta, she is an honors graduate from Berklee College of Music. Favorite credits include her three-time award-winning performances of Celie in The Color Purple and Hadestown\u2019s Canadian premiere. For Rome and Tayo. @taraatee",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tara_Jackson.jpg"
       },
       {
         "role": "Worker",
         "performer": "Brandon Cameron",
+        "replaces": null,
         "bio": "Broadway debut! Regional: Sight&Sound, American Music Theatre. Film: Cupid for Christmas. So grateful and excited to be joining the Hadestown family. God is good! Love to Mom, Mikayla, Laurel, family, friends and mentors. Special thanks to Jeremy and the Nicolosi & Co. team. BFA Shenandoah University Conservatory \u201922. Instagram: @_de_la_musique",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Brandon_Cameron.jpg"
       },
       {
         "role": "Worker",
         "performer": "Alex Lugo",
+        "replaces": null,
         "bio": "Alex uses they/them pronouns. International:Hadestown Australia. Tour: Hadestown, Rent20th anniversary. Television: \u201cAnd Just LikeThat\u201d on MAX & \u201cThe Late Late Show WithJames Cordon.\u201d NYU Tisch alum. For myfamily, Adreanna, Ben & TNB2S+ pioneers.",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Lugo-5-5-25.jpg"
       },
       {
         "role": "Worker",
         "performer": "Tanner Ray Wilson",
+        "replaces": null,
         "bio": "(Swing) Broadway: Cats, Head Over Heels (OBC). Other favorites include R+H\u2019s Cinderella (first national), Radio City\u2019s NY Spectacular, \u201cSaturday Night Live\u201d and Lempicka: A New Musical (associate choreographer, La Jolla Playhouse). All my love to my family, CESD, Ruby. Cheers! @tannerraywilson",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tanner_Ray_Wilson.jpg"
       }
@@ -1088,25 +1193,29 @@
     "changes": [
       {
         "role": "Fate",
-        "performer": "Kelly Belarmino",
+        "performer": "Tara Jackson",
+        "replaces": "Kelly Belarmino",
         "bio": "is honored to have made her Broadway debut in Hadestown in 2021! Hailing from Calgary, Alberta, she is an honors graduate from Berklee College of Music. Favorite credits include her three-time award-winning performances of Celie in The Color Purple and Hadestown\u2019s Canadian premiere. For Rome and Tayo. @taraatee",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tara_Jackson.jpg"
       },
       {
         "role": "Fate",
         "performer": "Alex Lugo",
+        "replaces": null,
         "bio": "Alex uses they/them pronouns. International:Hadestown Australia. Tour: Hadestown, Rent20th anniversary. Television: \u201cAnd Just LikeThat\u201d on MAX & \u201cThe Late Late Show WithJames Cordon.\u201d NYU Tisch alum. For myfamily, Adreanna, Ben & TNB2S+ pioneers.",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Lugo-5-5-25.jpg"
       },
       {
         "role": "Worker",
         "performer": "Brandon Cameron",
+        "replaces": null,
         "bio": "Broadway debut! Regional: Sight&Sound, American Music Theatre. Film: Cupid for Christmas. So grateful and excited to be joining the Hadestown family. God is good! Love to Mom, Mikayla, Laurel, family, friends and mentors. Special thanks to Jeremy and the Nicolosi & Co. team. BFA Shenandoah University Conservatory \u201922. Instagram: @_de_la_musique",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Brandon_Cameron.jpg"
       },
       {
         "role": "Worker",
         "performer": "Tanner Ray Wilson",
+        "replaces": null,
         "bio": "(Swing) Broadway: Cats, Head Over Heels (OBC). Other favorites include R+H\u2019s Cinderella (first national), Radio City\u2019s NY Spectacular, \u201cSaturday Night Live\u201d and Lempicka: A New Musical (associate choreographer, La Jolla Playhouse). All my love to my family, CESD, Ruby. Cheers! @tannerraywilson",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tanner_Ray_Wilson.jpg"
       }

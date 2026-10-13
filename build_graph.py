@@ -33,11 +33,16 @@ def main():
                 if cast["role_aliases"].get(change["role"], change["role"].lower()) == rid
             ]
             changed_people = {change["performer"] for change in changes}
-            departures = [
+            departures = {
+                change.get("replaces")
+                for change in changes
+                if change.get("replaces") in role["principals"]
+            }
+            departures.update(
                 person for person in role["principals"]
                 if person in changed_people
                 and cast["performers"].get(person, {}).get("home") == rid
-            ]
+            )
             if incoming and not (len(incoming) == 1 and len(departures) == 1):
                 maximum = max(maximum, len(incoming))
         max_unassigned[rid] = maximum
@@ -473,10 +478,26 @@ performances.forEach((performance, column) => {
       continue;
     }
 
-    const knownDepartures = role.principals.filter(person =>
-      changeByPerson.has(person) && home(person) === rid);
+    const knownDepartures = [...new Set([
+      ...roleChanges
+        .map(change => change.replaces)
+        .filter(person => role.principals.includes(person)),
+      ...role.principals.filter(person =>
+        changeByPerson.has(person) && home(person) === rid)
+    ])];
     const remainingChanges = [...roleChanges];
     const remainingDepartures = [...knownDepartures];
+
+    for (const change of [...remainingChanges]) {
+      const displaced = change.replaces;
+      const displacedRow = displaced && personTrack[displaced];
+      if (!displacedRow || displacedRow.roleId !== rid || rowAssignments.has(displacedRow.id)) continue;
+      rowAssignments.set(displacedRow.id, [change]);
+      remainingChanges.splice(remainingChanges.indexOf(change), 1);
+      const departureIndex = remainingDepartures.indexOf(displaced);
+      if (departureIndex >= 0) remainingDepartures.splice(departureIndex, 1);
+      displacedByCover.set(`${column}|${displaced}`, [change.performer]);
+    }
 
     for (const change of [...remainingChanges]) {
       const preferred = (DATA.performers[change.performer] || {}).preferred_track;

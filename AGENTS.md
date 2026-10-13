@@ -22,10 +22,11 @@ missing performances.
 Manual refresh commands:
 
 ```
-python3 scrape.py
+python3 scrape.py            # incremental
+python3 scrape.py --refresh  # re-fetch every currently listed performance
 ```
 
-Pure stdlib, no deps. Takes ~30s.
+Pure stdlib, no deps. Incremental runs take ~30s; full refreshes take longer.
 
 ## Scheduled publishing
 
@@ -56,16 +57,17 @@ Pure stdlib, no deps. Takes ~30s.
 ## Data
 
 - `data/performances.json` — one record per performance: `perf_id`,
-  `datetime`, `changes[]` (`role`, `performer`, `bio`, `headshot`).
+  `datetime`, `changes[]` (`role`, `performer`, `replaces`, `bio`, `headshot`).
 - `data/cast.json` — baseline cast, home tracks, understudy info, and the
   femme/masc Worker slot groups used to narrow substitution assignments.
-- `data/cast_changes.csv` — flat `datetime, perf_id, role, performer`.
+- `data/cast_changes.csv` — flat `datetime, perf_id, role, performer, replaces`.
 - `data/raw/perf_<id>.html` — raw HTML snapshots.
 
 Note: the site reports only *changes* from the principal cast (e.g. "The role
-of Fate will be played by X"). The principal/baseline cast is not in this data.
-Worker group matches are used when the source permits; unresolved cover
-assignments stay stacked in one unidentified Worker row rather than being
+of Fate will be played by X"). When present, "Usually played by Y" is stored as
+`replaces` and used to assign the exact track. The principal/baseline cast is
+otherwise not in this data. Worker group matches are used when the source
+permits; unresolved cover assignments stay stacked in one unidentified Worker row rather than being
 guessed. Ayla Ciccone-Burton is femme; Aryn Bohannon prefers Sydney Parra's
 Worker track when available. For ambiguous swaps, arrows run from the known
 vacant track cell to the moved primary's new role; swings use a blue dashed
