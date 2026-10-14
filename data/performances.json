@@ -1223,7 +1223,7 @@
     ]
   },
   {
-    "perf_id": "current",
+    "perf_id": 130823,
     "date_text": "Tue, Oct 13, 2026 at 7:00 PM",
     "datetime": "2026-10-13T19:00:00",
     "expected_label": "Tue, Oct 13, 2026 at 7:00 PM",
@@ -1251,6 +1251,38 @@
         "replaces": null,
         "bio": "(Swing) Broadway: Cats, Head Over Heels (OBC). Other favorites include R+H\u2019s Cinderella (first national), Radio City\u2019s NY Spectacular, \u201cSaturday Night Live\u201d and Lempicka: A New Musical (associate choreographer, La Jolla Playhouse). All my love to my family, CESD, Ruby. Cheers! @tannerraywilson",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tanner_Ray_Wilson.jpg"
+      }
+    ]
+  },
+  {
+    "perf_id": "current",
+    "date_text": "Wed, Oct 14, 2026 at 2:00 PM",
+    "datetime": "2026-10-14T14:00:00",
+    "expected_label": "Wed, Oct 14, 2026 at 2:00 PM",
+    "date_match": true,
+    "served_date": null,
+    "no_changes": false,
+    "changes": [
+      {
+        "role": "Fate",
+        "performer": "Alex Lugo",
+        "replaces": "Kelly Belarmino",
+        "bio": "Alex uses they/them pronouns. International:Hadestown Australia. Tour: Hadestown, Rent20th anniversary. Television: \u201cAnd Just LikeThat\u201d on MAX & \u201cThe Late Late Show WithJames Cordon.\u201d NYU Tisch alum. For myfamily, Adreanna, Ben & TNB2S+ pioneers.",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Lugo-5-5-25.jpg"
+      },
+      {
+        "role": "Worker",
+        "performer": "Tanner Ray Wilson",
+        "replaces": null,
+        "bio": "(Swing) Broadway: Cats, Head Over Heels (OBC). Other favorites include R+H\u2019s Cinderella (first national), Radio City\u2019s NY Spectacular, \u201cSaturday Night Live\u201d and Lempicka: A New Musical (associate choreographer, La Jolla Playhouse). All my love to my family, CESD, Ruby. Cheers! @tannerraywilson",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tanner_Ray_Wilson.jpg"
+      },
+      {
+        "role": "Worker",
+        "performer": "Brandon Cameron",
+        "replaces": null,
+        "bio": "Broadway debut! Regional: Sight&Sound, American Music Theatre. Film: Cupid for Christmas. So grateful and excited to be joining the Hadestown family. God is good! Love to Mom, Mikayla, Laurel, family, friends and mentors. Special thanks to Jeremy and the Nicolosi & Co. team. BFA Shenandoah University Conservatory \u201922. Instagram: @_de_la_musique",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Brandon_Cameron.jpg"
       }
     ]
   }
