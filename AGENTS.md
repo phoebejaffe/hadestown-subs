@@ -31,7 +31,8 @@ Pure stdlib, no deps. Incremental runs take ~30s; full refreshes take longer.
 ## Scheduled publishing
 
 - Live site: https://phoebejaffe.github.io/hadestown-subs/
-- `.github/workflows/update.yml` runs daily at 1:30 PM and 6:30 PM Eastern and
+- `.github/workflows/update.yml` runs at 1:30 and 2:30 PM Eastern on
+  Wednesdays, Saturdays, and Sundays, plus 6:30 and 7:30 PM Eastern daily. It
   can also be run manually with GitHub's `workflow_dispatch` button.
 - The workflow runs `scrape.py`, `fetch_headshots.py`, and `build_graph.py`,
   records `data/last_run.txt`, then commits the updated data and generated
