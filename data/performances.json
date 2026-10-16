@@ -1287,7 +1287,7 @@
     ]
   },
   {
-    "perf_id": "current",
+    "perf_id": 131120,
     "date_text": "Wed, Oct 14, 2026 at 7:30 PM",
     "datetime": "2026-10-14T19:30:00",
     "expected_label": "Wed, Oct 14, 2026 at 7:30 PM",
@@ -1315,6 +1315,31 @@
         "replaces": null,
         "bio": "Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thank you to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Bohannon-Cropped.jpg"
+      }
+    ]
+  },
+  {
+    "perf_id": "current",
+    "date_text": "Thu, Oct 15, 2026 at 7:00 PM",
+    "datetime": "2026-10-15T19:00:00",
+    "expected_label": "Thu, Oct 15, 2026 at 7:00 PM",
+    "date_match": true,
+    "served_date": null,
+    "no_changes": false,
+    "changes": [
+      {
+        "role": "Fate",
+        "performer": "Tara Jackson",
+        "replaces": null,
+        "bio": "is honored to have made her Broadway debut in Hadestown in 2021! Hailing from Calgary, Alberta, she is an honors graduate from Berklee College of Music. Favorite credits include her three-time award-winning performances of Celie in The Color Purple and Hadestown\u2019s Canadian premiere. For Rome and Tayo. @taraatee",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tara_Jackson.jpg"
+      },
+      {
+        "role": "Worker",
+        "performer": "Sojourner Brown",
+        "replaces": null,
+        "bio": "Broadway: Purpose, a play by Branden Jacobs-Jenkins. Television/film: \u201cElsbeth\u201d (CBS), recurring on \u201cMaximum Pleasure Guaranteed\u201d (Apple TV), The Snare (feature), \u201cScene in Color\u201d (NBC), \u201cAmerican Idol\u201d (guest artist). Regional: Nina Simone: Four Women (Geva). NYU Tisch. Indie-folk musician currently recording her debut solo EP + Walt Disney Records recording artist. Love to God and family! @sojournerbrown",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sojourner_Brown.jpg"
       }
     ]
   }
