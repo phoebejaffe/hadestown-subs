@@ -1319,7 +1319,7 @@
     ]
   },
   {
-    "perf_id": "current",
+    "perf_id": 130755,
     "date_text": "Thu, Oct 15, 2026 at 7:00 PM",
     "datetime": "2026-10-15T19:00:00",
     "expected_label": "Thu, Oct 15, 2026 at 7:00 PM",
@@ -1340,6 +1340,38 @@
         "replaces": null,
         "bio": "Broadway: Purpose, a play by Branden Jacobs-Jenkins. Television/film: \u201cElsbeth\u201d (CBS), recurring on \u201cMaximum Pleasure Guaranteed\u201d (Apple TV), The Snare (feature), \u201cScene in Color\u201d (NBC), \u201cAmerican Idol\u201d (guest artist). Regional: Nina Simone: Four Women (Geva). NYU Tisch. Indie-folk musician currently recording her debut solo EP + Walt Disney Records recording artist. Love to God and family! @sojournerbrown",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sojourner_Brown.jpg"
+      }
+    ]
+  },
+  {
+    "perf_id": "current",
+    "date_text": "Fri, Oct 16, 2026 at 7:00 PM",
+    "datetime": "2026-10-16T19:00:00",
+    "expected_label": "Fri, Oct 16, 2026 at 7:00 PM",
+    "date_match": true,
+    "served_date": null,
+    "no_changes": false,
+    "changes": [
+      {
+        "role": "Fate",
+        "performer": "Alex Lugo",
+        "replaces": "Kelly Belarmino",
+        "bio": "Alex uses they/them pronouns. International:Hadestown Australia. Tour: Hadestown, Rent20th anniversary. Television: \u201cAnd Just LikeThat\u201d on MAX & \u201cThe Late Late Show WithJames Cordon.\u201d NYU Tisch alum. For myfamily, Adreanna, Ben & TNB2S+ pioneers.",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Lugo-5-5-25.jpg"
+      },
+      {
+        "role": "Worker",
+        "performer": "Aryn Bohannon",
+        "replaces": null,
+        "bio": "Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thank you to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Bohannon-Cropped.jpg"
+      },
+      {
+        "role": "Worker",
+        "performer": "Max Kumangai",
+        "replaces": null,
+        "bio": "he/him. Max is grateful to be in his fourth year at Hadestown. Broadway: Jagged Little Pill (OBC), Waitress (OBC). Off-Broadway: What\u2019s That Smell, Lysistrata Jones and The Civil War. First national tour: Waitress, Hair and Joseph. Five shows at Encores! Television/film: \u201cBoardwalk Empire\u201d and \u201cVinyl,\u201d and live capture of Waitress. Umich 2008!",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Max_Kumangai.jpg"
       }
     ]
   }
