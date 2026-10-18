@@ -132,5 +132,7 @@ datetime,perf_id,role,performer,replaces
 2026-10-17T14:00:00,130791,Fate,Alex Lugo,
 2026-10-17T14:00:00,130791,Worker,Max Kumangai,
 2026-10-17T14:00:00,130791,Worker,Sojourner Brown,
-2026-10-17T19:30:00,current,Fate,Alex Lugo,Kelly Belarmino
-2026-10-17T19:30:00,current,Worker,Sojourner Brown,
+2026-10-17T19:30:00,130793,Fate,Alex Lugo,Kelly Belarmino
+2026-10-17T19:30:00,130793,Worker,Sojourner Brown,
+2026-10-18T15:00:00,current,Fate,Alex Lugo,Kelly Belarmino
+2026-10-18T15:00:00,current,Worker,Aryn Bohannon,
