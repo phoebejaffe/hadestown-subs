@@ -128,7 +128,9 @@ datetime,perf_id,role,performer,replaces
 2026-10-16T19:00:00,130771,Fate,Alex Lugo,Kelly Belarmino
 2026-10-16T19:00:00,130771,Worker,Aryn Bohannon,
 2026-10-16T19:00:00,130771,Worker,Max Kumangai,
-2026-10-17T14:00:00,current,Hermes,Malcolm Armwood,
-2026-10-17T14:00:00,current,Fate,Alex Lugo,
-2026-10-17T14:00:00,current,Worker,Max Kumangai,
-2026-10-17T14:00:00,current,Worker,Sojourner Brown,
+2026-10-17T14:00:00,130791,Hermes,Malcolm Armwood,
+2026-10-17T14:00:00,130791,Fate,Alex Lugo,
+2026-10-17T14:00:00,130791,Worker,Max Kumangai,
+2026-10-17T14:00:00,130791,Worker,Sojourner Brown,
+2026-10-17T19:30:00,current,Fate,Alex Lugo,Kelly Belarmino
+2026-10-17T19:30:00,current,Worker,Sojourner Brown,
