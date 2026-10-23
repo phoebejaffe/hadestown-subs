@@ -1557,7 +1557,7 @@
     ]
   },
   {
-    "perf_id": "current",
+    "perf_id": 131124,
     "date_text": "Wed, Oct 21, 2026 at 7:30 PM",
     "datetime": "2026-10-21T19:30:00",
     "expected_label": "Wed, Oct 21, 2026 at 7:30 PM",
@@ -1584,6 +1584,31 @@
         "performer": "Tanner Ray Wilson",
         "replaces": null,
         "bio": "Broadway: Cats, Head Over Heels (OBC). Other favorites include R+H\u2019s Cinderella (first national), Radio City\u2019s NY Spectacular, \u201cSaturday Night Live\u201d and Lempicka: A New Musical (associate choreographer, La Jolla Playhouse). All my love to my family, CESD, Ruby. Cheers! @tannerraywilson",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tanner_Ray_Wilson.jpg"
+      }
+    ]
+  },
+  {
+    "perf_id": "current",
+    "date_text": "Thu, Oct 22, 2026 at 7:00 PM",
+    "datetime": "2026-10-22T19:00:00",
+    "expected_label": "Thu, Oct 22, 2026 at 7:00 PM",
+    "date_match": true,
+    "served_date": null,
+    "no_changes": false,
+    "changes": [
+      {
+        "role": "Fate",
+        "performer": "Alex Lugo",
+        "replaces": null,
+        "bio": "Alex uses they/them pronouns. International:Hadestown Australia. Tour: Hadestown, Rent20th anniversary. Television: \u201cAnd Just LikeThat\u201d on MAX & \u201cThe Late Late Show WithJames Cordon.\u201d NYU Tisch alum. For myfamily, Adreanna, Ben & TNB2S+ pioneers.",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Lugo-5-5-25.jpg"
+      },
+      {
+        "role": "Worker",
+        "performer": "Tanner Ray Wilson",
+        "replaces": null,
+        "bio": "(Swing) Broadway: Cats, Head Over Heels (OBC). Other favorites include R+H\u2019s Cinderella (first national), Radio City\u2019s NY Spectacular, \u201cSaturday Night Live\u201d and Lempicka: A New Musical (associate choreographer, La Jolla Playhouse). All my love to my family, CESD, Ruby. Cheers! @tannerraywilson",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tanner_Ray_Wilson.jpg"
       }
     ]
