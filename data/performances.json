@@ -1738,7 +1738,7 @@
     "changes": []
   },
   {
-    "perf_id": "current",
+    "perf_id": 131126,
     "date_text": "Wed, Oct 28, 2026 at 2:00 PM",
     "datetime": "2026-10-28T14:00:00",
     "expected_label": "Wed, Oct 28, 2026 at 2:00 PM",
@@ -1746,5 +1746,37 @@
     "served_date": null,
     "no_changes": true,
     "changes": []
+  },
+  {
+    "perf_id": "current",
+    "date_text": "Wed, Oct 28, 2026 at 7:30 PM",
+    "datetime": "2026-10-28T19:30:00",
+    "expected_label": "Wed, Oct 28, 2026 at 7:30 PM",
+    "date_match": true,
+    "served_date": null,
+    "no_changes": false,
+    "changes": [
+      {
+        "role": "Persephone",
+        "performer": "Tara Jackson",
+        "replaces": null,
+        "bio": "is honored to have made her Broadway debut in Hadestown in 2021! Hailing from Calgary, Alberta, she is an honors graduate from Berklee College of Music. Favorite credits include her three-time award-winning performances of Celie in The Color Purple and Hadestown\u2019s Canadian premiere. For Rome and Tayo. @taraatee. Upcoming Solo Show at 54 Below This Sunday, November 1st!",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tara_Jackson.jpg"
+      },
+      {
+        "role": "Fate",
+        "performer": "Sydney Parra",
+        "replaces": null,
+        "bio": "Broadway debut. National tour: SIX, Hadestown. Off-Broadway: Teeth, We Are the Tigers. BFA Ithaca College. Thanks to the folks at Avalon and Lohne/Graham. Endless gratitude for my Hades fam. For mom and dad and all those who loved me into consciousness. @sydneyparra",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sydney_Parra.jpg"
+      },
+      {
+        "role": "Worker",
+        "performer": "Aryn Bohannon",
+        "replaces": null,
+        "bio": "Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thank you to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Bohannon-Cropped.jpg"
+      }
+    ]
   }
 ]
