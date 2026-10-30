@@ -1748,7 +1748,7 @@
     "changes": []
   },
   {
-    "perf_id": "current",
+    "perf_id": 131128,
     "date_text": "Wed, Oct 28, 2026 at 7:30 PM",
     "datetime": "2026-10-28T19:30:00",
     "expected_label": "Wed, Oct 28, 2026 at 7:30 PM",
@@ -1776,6 +1776,24 @@
         "replaces": null,
         "bio": "Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thank you to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Bohannon-Cropped.jpg"
+      }
+    ]
+  },
+  {
+    "perf_id": "current",
+    "date_text": "Thu, Oct 29, 2026 at 7:00 PM",
+    "datetime": "2026-10-29T19:00:00",
+    "expected_label": "Thu, Oct 29, 2026 at 7:00 PM",
+    "date_match": true,
+    "served_date": null,
+    "no_changes": false,
+    "changes": [
+      {
+        "role": "Worker",
+        "performer": "Max Kumangai",
+        "replaces": null,
+        "bio": "he/him. Max is grateful to be in his fourth year at Hadestown. Broadway: Jagged Little Pill (OBC), Waitress (OBC). Off-Broadway: What\u2019s That Smell, Lysistrata Jones and The Civil War. First national tour: Waitress, Hair and Joseph. Five shows at Encores! Television/film: \u201cBoardwalk Empire\u201d and \u201cVinyl,\u201d and live capture of Waitress. Umich 2008!",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Max_Kumangai.jpg"
       }
     ]
   }
