@@ -1852,7 +1852,7 @@
     ]
   },
   {
-    "perf_id": "current",
+    "perf_id": 131091,
     "date_text": "Sun, Nov 1, 2026 at 3:00 PM",
     "datetime": "2026-11-01T15:00:00",
     "expected_label": "Sun, Nov 1, 2026 at 3:00 PM",
@@ -1860,5 +1860,69 @@
     "served_date": null,
     "no_changes": true,
     "changes": []
+  },
+  {
+    "perf_id": 131130,
+    "date_text": "Wed, Nov 4, 2026 at 2:00 PM",
+    "datetime": "2026-11-04T14:00:00",
+    "expected_label": "Wed, Nov 4, 2026 at 2:00 PM",
+    "date_match": true,
+    "served_date": null,
+    "no_changes": false,
+    "changes": [
+      {
+        "role": "Fate",
+        "performer": "Sydney Parra",
+        "replaces": null,
+        "bio": "Broadway debut. National tour: SIX, Hadestown. Off-Broadway: Teeth, We Are the Tigers. BFA Ithaca College. Thanks to the folks at Avalon and Lohne/Graham. Endless gratitude for my Hades fam. For mom and dad and all those who loved me into consciousness. @sydneyparra",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sydney_Parra.jpg"
+      },
+      {
+        "role": "Worker",
+        "performer": "Aryn Bohannon",
+        "replaces": null,
+        "bio": "Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thank you to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Bohannon-Cropped.jpg"
+      },
+      {
+        "role": "Worker",
+        "performer": "Sojourner Brown",
+        "replaces": null,
+        "bio": "(Swing, u/s Eurydice) Broadway: Purpose, a play by Branden Jacobs-Jenkins. Television/film: \u201cElsbeth\u201d (CBS), recurring on \u201cMaximum Pleasure Guaranteed\u201d (Apple TV), The Snare (feature), \u201cScene in Color\u201d (NBC), \u201cAmerican Idol\u201d (guest artist). Regional: Nina Simone: Four Women (Geva). NYU Tisch. Indie-folk musician currently recording her debut solo EP + Walt Disney Records recording artist. Love to God and family! @sojournerbrown",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sojourner_Brown.jpg"
+      }
+    ]
+  },
+  {
+    "perf_id": "current",
+    "date_text": "Wed, Nov 4, 2026 at 7:30 PM",
+    "datetime": "2026-11-04T19:30:00",
+    "expected_label": "Wed, Nov 4, 2026 at 7:30 PM",
+    "date_match": true,
+    "served_date": null,
+    "no_changes": false,
+    "changes": [
+      {
+        "role": "Fate",
+        "performer": "Sydney Parra",
+        "replaces": null,
+        "bio": "Broadway debut. National tour: SIX, Hadestown. Off-Broadway: Teeth, We Are the Tigers. BFA Ithaca College. Thanks to the folks at Avalon and Lohne/Graham. Endless gratitude for my Hades fam. For mom and dad and all those who loved me into consciousness. @sydneyparra",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sydney_Parra.jpg"
+      },
+      {
+        "role": "Worker",
+        "performer": "Aryn Bohannon",
+        "replaces": null,
+        "bio": "Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thank you to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Bohannon-Cropped.jpg"
+      },
+      {
+        "role": "Worker",
+        "performer": "Sojourner Brown",
+        "replaces": null,
+        "bio": "(Swing, u/s Eurydice) Broadway: Purpose, a play by Branden Jacobs-Jenkins. Television/film: \u201cElsbeth\u201d (CBS), recurring on \u201cMaximum Pleasure Guaranteed\u201d (Apple TV), The Snare (feature), \u201cScene in Color\u201d (NBC), \u201cAmerican Idol\u201d (guest artist). Regional: Nina Simone: Four Women (Geva). NYU Tisch. Indie-folk musician currently recording her debut solo EP + Walt Disney Records recording artist. Love to God and family! @sojournerbrown",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sojourner_Brown.jpg"
+      }
+    ]
   }
 ]
