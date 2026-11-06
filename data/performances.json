@@ -1894,7 +1894,7 @@
     ]
   },
   {
-    "perf_id": "current",
+    "perf_id": 131132,
     "date_text": "Wed, Nov 4, 2026 at 7:30 PM",
     "datetime": "2026-11-04T19:30:00",
     "expected_label": "Wed, Nov 4, 2026 at 7:30 PM",
@@ -1915,6 +1915,31 @@
         "replaces": null,
         "bio": "Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thank you to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Bohannon-Cropped.jpg"
+      },
+      {
+        "role": "Worker",
+        "performer": "Sojourner Brown",
+        "replaces": null,
+        "bio": "(Swing, u/s Eurydice) Broadway: Purpose, a play by Branden Jacobs-Jenkins. Television/film: \u201cElsbeth\u201d (CBS), recurring on \u201cMaximum Pleasure Guaranteed\u201d (Apple TV), The Snare (feature), \u201cScene in Color\u201d (NBC), \u201cAmerican Idol\u201d (guest artist). Regional: Nina Simone: Four Women (Geva). NYU Tisch. Indie-folk musician currently recording her debut solo EP + Walt Disney Records recording artist. Love to God and family! @sojournerbrown",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sojourner_Brown.jpg"
+      }
+    ]
+  },
+  {
+    "perf_id": "current",
+    "date_text": "Thu, Nov 5, 2026 at 7:00 PM",
+    "datetime": "2026-11-05T19:00:00",
+    "expected_label": "Thu, Nov 5, 2026 at 7:00 PM",
+    "date_match": true,
+    "served_date": null,
+    "no_changes": false,
+    "changes": [
+      {
+        "role": "Fate",
+        "performer": "Emily Afton",
+        "replaces": null,
+        "bio": "Broadway: Am\u00e9lie, Hair. National tour: Hair, Priscilla Queen of the Desert, I Love a Piano. Regional: Am\u00e9lie (CTG), Waitress (A.R.T.). When not doing theatre, she tours nationally singing with the bands Saved by the 90s and Emergency Tiara. BFA: Emerson College. Honored to get to tell this story. @emafton",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Emily_Afton.jpg"
       },
       {
         "role": "Worker",
