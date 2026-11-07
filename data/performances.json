@@ -1926,7 +1926,7 @@
     ]
   },
   {
-    "perf_id": "current",
+    "perf_id": 130761,
     "date_text": "Thu, Nov 5, 2026 at 7:00 PM",
     "datetime": "2026-11-05T19:00:00",
     "expected_label": "Thu, Nov 5, 2026 at 7:00 PM",
@@ -1949,5 +1949,15 @@
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sojourner_Brown.jpg"
       }
     ]
+  },
+  {
+    "perf_id": "current",
+    "date_text": "Fri, Nov 6, 2026 at 7:00 PM",
+    "datetime": "2026-11-06T19:00:00",
+    "expected_label": "Fri, Nov 6, 2026 at 7:00 PM",
+    "date_match": true,
+    "served_date": null,
+    "no_changes": true,
+    "changes": []
   }
 ]
