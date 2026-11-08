@@ -1986,7 +1986,7 @@
     ]
   },
   {
-    "perf_id": "current",
+    "perf_id": 130805,
     "date_text": "Sat, Nov 7, 2026 at 7:30 PM",
     "datetime": "2026-11-07T19:30:00",
     "expected_label": "Sat, Nov 7, 2026 at 7:30 PM",
@@ -2000,6 +2000,24 @@
         "replaces": null,
         "bio": "is honored to have made her Broadway debut in Hadestown in 2021! Hailing from Calgary, Alberta, she is an honors graduate from Berklee College of Music. Favorite credits include her three-time award-winning performances of Celie in The Color Purple and Hadestown\u2019s Canadian premiere. For Rome and Tayo. @taraatee",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tara_Jackson.jpg"
+      }
+    ]
+  },
+  {
+    "perf_id": "current",
+    "date_text": "Sun, Nov 8, 2026 at 2:00 PM",
+    "datetime": "2026-11-08T14:00:00",
+    "expected_label": "Sun, Nov 8, 2026 at 2:00 PM",
+    "date_match": true,
+    "served_date": null,
+    "no_changes": false,
+    "changes": [
+      {
+        "role": "Fate",
+        "performer": "Aryn Bohannon",
+        "replaces": null,
+        "bio": "Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thank you to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Bohannon-Cropped.jpg"
       }
     ]
   }
