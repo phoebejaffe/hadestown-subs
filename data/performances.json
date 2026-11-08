@@ -1961,7 +1961,7 @@
     "changes": []
   },
   {
-    "perf_id": "current",
+    "perf_id": 130803,
     "date_text": "Sat, Nov 7, 2026 at 2:00 PM",
     "datetime": "2026-11-07T14:00:00",
     "expected_label": "Sat, Nov 7, 2026 at 2:00 PM",
@@ -1976,6 +1976,24 @@
         "bio": "he/him. Max is grateful to be in his fourth year at Hadestown. Broadway: Jagged Little Pill (OBC), Waitress (OBC). Off-Broadway: What\u2019s That Smell, Lysistrata Jones and The Civil War. First national tour: Waitress, Hair and Joseph. Five shows at Encores! Television/film: \u201cBoardwalk Empire\u201d and \u201cVinyl,\u201d and live capture of Waitress. Umich 2008!",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Max_Kumangai.jpg"
       },
+      {
+        "role": "Fate",
+        "performer": "Tara Jackson",
+        "replaces": null,
+        "bio": "is honored to have made her Broadway debut in Hadestown in 2021! Hailing from Calgary, Alberta, she is an honors graduate from Berklee College of Music. Favorite credits include her three-time award-winning performances of Celie in The Color Purple and Hadestown\u2019s Canadian premiere. For Rome and Tayo. @taraatee",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tara_Jackson.jpg"
+      }
+    ]
+  },
+  {
+    "perf_id": "current",
+    "date_text": "Sat, Nov 7, 2026 at 7:30 PM",
+    "datetime": "2026-11-07T19:30:00",
+    "expected_label": "Sat, Nov 7, 2026 at 7:30 PM",
+    "date_match": true,
+    "served_date": null,
+    "no_changes": false,
+    "changes": [
       {
         "role": "Fate",
         "performer": "Tara Jackson",
