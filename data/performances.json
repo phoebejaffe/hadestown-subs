@@ -2004,10 +2004,28 @@
     ]
   },
   {
-    "perf_id": "current",
+    "perf_id": 131093,
     "date_text": "Sun, Nov 8, 2026 at 2:00 PM",
     "datetime": "2026-11-08T14:00:00",
     "expected_label": "Sun, Nov 8, 2026 at 2:00 PM",
+    "date_match": true,
+    "served_date": null,
+    "no_changes": false,
+    "changes": [
+      {
+        "role": "Fate",
+        "performer": "Aryn Bohannon",
+        "replaces": null,
+        "bio": "Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thank you to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Bohannon-Cropped.jpg"
+      }
+    ]
+  },
+  {
+    "perf_id": "current",
+    "date_text": "Sun, Nov 8, 2026 at 7:30 PM",
+    "datetime": "2026-11-08T19:30:00",
+    "expected_label": "Sun, Nov 8, 2026 at 7:30 PM",
     "date_match": true,
     "served_date": null,
     "no_changes": false,
