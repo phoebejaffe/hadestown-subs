@@ -2040,7 +2040,7 @@
     ]
   },
   {
-    "perf_id": "current",
+    "perf_id": 131146,
     "date_text": "Tue, Nov 10, 2026 at 7:00 PM",
     "datetime": "2026-11-10T19:00:00",
     "expected_label": "Tue, Nov 10, 2026 at 7:00 PM",
@@ -2075,6 +2075,56 @@
         "replaces": null,
         "bio": "Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thank you to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Bohannon-Cropped.jpg"
+      }
+    ]
+  },
+  {
+    "perf_id": 131134,
+    "date_text": "Wed, Nov 11, 2026 at 2:00 PM",
+    "datetime": "2026-11-11T14:00:00",
+    "expected_label": "Wed, Nov 11, 2026 at 2:00 PM",
+    "date_match": true,
+    "served_date": null,
+    "no_changes": false,
+    "changes": [
+      {
+        "role": "Eurydice",
+        "performer": "Sydney Parra",
+        "replaces": null,
+        "bio": "Broadway debut. National tour: SIX, Hadestown. Off-Broadway: Teeth, We Are the Tigers. BFA Ithaca College. Thanks to the folks at Avalon and Lohne/Graham. Endless gratitude for my Hades fam. For mom and dad and all those who loved me into consciousness. @sydneyparra",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sydney_Parra.jpg"
+      },
+      {
+        "role": "Worker",
+        "performer": "Tara Jackson",
+        "replaces": null,
+        "bio": "is honored to have made her Broadway debut in Hadestown in 2021! Hailing from Calgary, Alberta, she is an honors graduate from Berklee College of Music. Favorite credits include her three-time award-winning performances of Celie in The Color Purple and Hadestown\u2019s Canadian premiere. For Rome and Tayo. @taraatee",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tara_Jackson.jpg"
+      }
+    ]
+  },
+  {
+    "perf_id": "current",
+    "date_text": "Wed, Nov 11, 2026 at 7:30 PM",
+    "datetime": "2026-11-11T19:30:00",
+    "expected_label": "Wed, Nov 11, 2026 at 7:30 PM",
+    "date_match": true,
+    "served_date": null,
+    "no_changes": false,
+    "changes": [
+      {
+        "role": "Eurydice",
+        "performer": "Sydney Parra",
+        "replaces": null,
+        "bio": "Broadway debut. National tour: SIX, Hadestown. Off-Broadway: Teeth, We Are the Tigers. BFA Ithaca College. Thanks to the folks at Avalon and Lohne/Graham. Endless gratitude for my Hades fam. For mom and dad and all those who loved me into consciousness. @sydneyparra",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Sydney_Parra.jpg"
+      },
+      {
+        "role": "Worker",
+        "performer": "Tara Jackson",
+        "replaces": null,
+        "bio": "is honored to have made her Broadway debut in Hadestown in 2021! Hailing from Calgary, Alberta, she is an honors graduate from Berklee College of Music. Favorite credits include her three-time award-winning performances of Celie in The Color Purple and Hadestown\u2019s Canadian premiere. For Rome and Tayo. @taraatee",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tara_Jackson.jpg"
       }
     ]
   }
