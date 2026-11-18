@@ -2250,7 +2250,7 @@
     ]
   },
   {
-    "perf_id": "current",
+    "perf_id": 131097,
     "date_text": "Sun, Nov 15, 2026 at 3:00 PM",
     "datetime": "2026-11-15T15:00:00",
     "expected_label": "Sun, Nov 15, 2026 at 3:00 PM",
@@ -2273,5 +2273,15 @@
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Brandon_Cameron.jpg"
       }
     ]
+  },
+  {
+    "perf_id": "current",
+    "date_text": "Tue, Nov 17, 2026 at 7:00 PM",
+    "datetime": "2026-11-17T19:00:00",
+    "expected_label": "Tue, Nov 17, 2026 at 7:00 PM",
+    "date_match": true,
+    "served_date": null,
+    "no_changes": true,
+    "changes": []
   }
 ]
