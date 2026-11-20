@@ -2303,7 +2303,7 @@
     ]
   },
   {
-    "perf_id": "current",
+    "perf_id": 131140,
     "date_text": "Wed, Nov 18, 2026 at 7:30 PM",
     "datetime": "2026-11-18T19:30:00",
     "expected_label": "Wed, Nov 18, 2026 at 7:30 PM",
@@ -2317,6 +2317,38 @@
         "replaces": null,
         "bio": "Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thank you to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Bohannon-Cropped.jpg"
+      }
+    ]
+  },
+  {
+    "perf_id": "current",
+    "date_text": "Thu, Nov 19, 2026 at 7:00 PM",
+    "datetime": "2026-11-19T19:00:00",
+    "expected_label": "Thu, Nov 19, 2026 at 7:00 PM",
+    "date_match": true,
+    "served_date": null,
+    "no_changes": false,
+    "changes": [
+      {
+        "role": "Eurydice",
+        "performer": "KC Dela Cruz",
+        "replaces": null,
+        "bio": "National tour: Hadestown. Regional: Kiss My Aztec! (Berkeley Rep/La Jolla Playhouse/Hartford Stage); The Prince of Egypt (TheatreWorks); In the Heights (Woodminster); The Little Mermaid (Tri-Valley Rep); West Side Story (City Lights); Miss Saigon (Palo Alto Players). Television: \u201cI Can See Your Voice,\u201d \u201cThe Voice Philippines.\u201d Endless gratitude to my friends, my Hadestown family and DGRW who have always been by my side. All the love to Disco, Kenny and my mom and dad! @kcdelacruz",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/100874/Hadestown-KC-Dela-Cruz-12-8-25.jpg"
+      },
+      {
+        "role": "Fate",
+        "performer": "Aryn Bohannon",
+        "replaces": null,
+        "bio": "Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thank you to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Bohannon-Cropped.jpg"
+      },
+      {
+        "role": "Worker",
+        "performer": "Tanner Ray Wilson",
+        "replaces": null,
+        "bio": "(Swing) Broadway: Cats, Head Over Heels (OBC). Other favorites include R+H\u2019s Cinderella (first national), Radio City\u2019s NY Spectacular, \u201cSaturday Night Live\u201d and Lempicka: A New Musical (associate choreographer, La Jolla Playhouse). All my love to my family, CESD, Ruby. Cheers! @tannerraywilson",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tanner_Ray_Wilson.jpg"
       }
     ]
   }
