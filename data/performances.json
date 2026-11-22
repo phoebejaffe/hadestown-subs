@@ -2402,7 +2402,15 @@
     "expected_label": "Sat, Nov 21, 2026 at 7:30 PM",
     "date_match": true,
     "served_date": null,
-    "no_changes": true,
-    "changes": []
+    "no_changes": false,
+    "changes": [
+      {
+        "role": "Orpheus",
+        "performer": "Brandon Cameron",
+        "replaces": null,
+        "bio": "Broadway debut! Regional: Sight&Sound, American Music Theatre. Film: Cupid for Christmas. So grateful and excited to be joining the Hadestown family. God is good! Love to Mom, Mikayla, Laurel, family, friends and mentors. Special thanks to Jeremy and the Nicolosi & Co. team. BFA Shenandoah University Conservatory \u201922. Instagram: @_de_la_musique",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Brandon_Cameron.jpg"
+      }
+    ]
   }
 ]
