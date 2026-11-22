@@ -2396,7 +2396,7 @@
     ]
   },
   {
-    "perf_id": "current",
+    "perf_id": 130813,
     "date_text": "Sat, Nov 21, 2026 at 7:30 PM",
     "datetime": "2026-11-21T19:30:00",
     "expected_label": "Sat, Nov 21, 2026 at 7:30 PM",
@@ -2410,6 +2410,31 @@
         "replaces": null,
         "bio": "Broadway debut! Regional: Sight&Sound, American Music Theatre. Film: Cupid for Christmas. So grateful and excited to be joining the Hadestown family. God is good! Love to Mom, Mikayla, Laurel, family, friends and mentors. Special thanks to Jeremy and the Nicolosi & Co. team. BFA Shenandoah University Conservatory \u201922. Instagram: @_de_la_musique",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Brandon_Cameron.jpg"
+      }
+    ]
+  },
+  {
+    "perf_id": "current",
+    "date_text": "Sun, Nov 22, 2026 at 3:00 PM",
+    "datetime": "2026-11-22T15:00:00",
+    "expected_label": "Sun, Nov 22, 2026 at 3:00 PM",
+    "date_match": true,
+    "served_date": null,
+    "no_changes": false,
+    "changes": [
+      {
+        "role": "Orpheus",
+        "performer": "Jeffrey Cornelius",
+        "replaces": null,
+        "bio": "Broadway debut!! Jackson, MS, native. CCM alum. Tour: Dear Evan Hansen first national (alt. Evan). Regional: Senior Class (world premiere, Olney). Multiple workshops. Thank you to my family, community, DGRW, Team Hadestown and the man upstairs. @thejeffreycornelius. It takes a village.",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Jeffrey_Cornelius.jpeg"
+      },
+      {
+        "role": "Worker",
+        "performer": "Tanner Ray Wilson",
+        "replaces": null,
+        "bio": "(Swing) Broadway: Cats, Head Over Heels (OBC). Other favorites include R+H\u2019s Cinderella (first national), Radio City\u2019s NY Spectacular, \u201cSaturday Night Live\u201d and Lempicka: A New Musical (associate choreographer, La Jolla Playhouse). All my love to my family, CESD, Ruby. Cheers! @tannerraywilson",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tanner_Ray_Wilson.jpg"
       }
     ]
   }
