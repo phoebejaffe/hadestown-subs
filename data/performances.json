@@ -2414,7 +2414,7 @@
     ]
   },
   {
-    "perf_id": "current",
+    "perf_id": 131099,
     "date_text": "Sun, Nov 22, 2026 at 3:00 PM",
     "datetime": "2026-11-22T15:00:00",
     "expected_label": "Sun, Nov 22, 2026 at 3:00 PM",
@@ -2435,6 +2435,31 @@
         "replaces": null,
         "bio": "(Swing) Broadway: Cats, Head Over Heels (OBC). Other favorites include R+H\u2019s Cinderella (first national), Radio City\u2019s NY Spectacular, \u201cSaturday Night Live\u201d and Lempicka: A New Musical (associate choreographer, La Jolla Playhouse). All my love to my family, CESD, Ruby. Cheers! @tannerraywilson",
         "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Tanner_Ray_Wilson.jpg"
+      }
+    ]
+  },
+  {
+    "perf_id": "current",
+    "date_text": "Mon, Nov 23, 2026 at 7:00 PM",
+    "datetime": "2026-11-23T19:00:00",
+    "expected_label": "Mon, Nov 23, 2026 at 7:00 PM",
+    "date_match": true,
+    "served_date": null,
+    "no_changes": false,
+    "changes": [
+      {
+        "role": "Worker",
+        "performer": "Aryn Bohannon",
+        "replaces": null,
+        "bio": "Broadway: SIX the Musical. National tour: SIX the Musical. BFA, Boston Conservatory at Berklee College of Music. So happy to be involved in my favorite musical, and to work alongside such talented folks. Thank you to my incredible team at DGRW and my endlessly supportive partner, Joe. @arynboh",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/Hadestown-A.-Bohannon-Cropped.jpg"
+      },
+      {
+        "role": "Worker",
+        "performer": "Max Kumangai",
+        "replaces": null,
+        "bio": "he/him. Max is grateful to be in his fourth year at Hadestown. Broadway: Jagged Little Pill (OBC), Waitress (OBC). Off-Broadway: What\u2019s That Smell, Lysistrata Jones and The Civil War. First national tour: Waitress, Hair and Joseph. Five shows at Encores! Television/film: \u201cBoardwalk Empire\u201d and \u201cVinyl,\u201d and live capture of Waitress. Umich 2008!",
+        "headshot": "https://assets.atthisplaybill.com/headshots/transforms/_headshot/2_Max_Kumangai.jpg"
       }
     ]
   }
