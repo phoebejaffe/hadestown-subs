@@ -2506,10 +2506,30 @@
     "changes": []
   },
   {
-    "perf_id": "current",
+    "perf_id": 131144,
     "date_text": "Wed, Nov 25, 2026 at 7:30 PM",
     "datetime": "2026-11-25T19:30:00",
     "expected_label": "Wed, Nov 25, 2026 at 7:30 PM",
+    "date_match": true,
+    "served_date": null,
+    "no_changes": true,
+    "changes": []
+  },
+  {
+    "perf_id": 131152,
+    "date_text": "Fri, Nov 27, 2026 at 2:00 PM",
+    "datetime": "2026-11-27T14:00:00",
+    "expected_label": "Fri, Nov 27, 2026 at 2:00 PM",
+    "date_match": true,
+    "served_date": null,
+    "no_changes": true,
+    "changes": []
+  },
+  {
+    "perf_id": "current",
+    "date_text": "Fri, Nov 27, 2026 at 7:30 PM",
+    "datetime": "2026-11-27T19:30:00",
+    "expected_label": "Fri, Nov 27, 2026 at 7:30 PM",
     "date_match": true,
     "served_date": null,
     "no_changes": true,
